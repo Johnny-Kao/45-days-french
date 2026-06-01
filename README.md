@@ -1,4 +1,4 @@
-# 30 Days French
+# 45 Days French
 
 Mobile-first static French speaking course. No backend, no build step.
 
