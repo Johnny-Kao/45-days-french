@@ -226,12 +226,30 @@ function renderLesson(lesson) {
       <div class="pron-note">${zh(n.note)}</div>
     </div>`).join('');
 
-  const grammarHTML = lesson.grammarNote
-    ? `<div class="card">
+  const grammarHTML = (() => {
+    const notes = lesson.grammarNotes;
+    if (notes && notes.length > 0) {
+      const items = notes.map(n => `
+        <div class="grammar-note-item">
+          <div class="grammar-note-header">
+            <span class="grammar-note-title">${zh(n.title)}</span>
+            ${n.level ? `<span class="grammar-note-level">${n.level}</span>` : ''}
+          </div>
+          <div class="grammar-note-explanation">${zh(n.explanation)}</div>
+        </div>`).join('');
+      return `<div class="card">
+        <div class="section-title">語法小筆記</div>
+        <div class="grammar-notes-list">${items}</div>
+      </div>`;
+    }
+    if (lesson.grammarNote) {
+      return `<div class="card">
         <div class="section-title">語法小筆記</div>
         <div class="grammar-note">${zh(lesson.grammarNote)}</div>
-       </div>`
-    : '';
+      </div>`;
+    }
+    return '';
+  })();
 
   const audioNoticeHTML = hasAudio
     ? ''

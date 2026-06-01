@@ -437,6 +437,49 @@ body {
   white-space: pre-line;
 }
 
+.grammar-notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.grammar-note-item {
+  padding: 12px 14px;
+  background: var(--bg);
+  border-radius: 12px;
+  border-left: 3px solid var(--accent);
+}
+
+.grammar-note-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.grammar-note-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.grammar-note-level {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--muted);
+  background: var(--border);
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+
+.grammar-note-explanation {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 /* ── Output task ── */
 .output-instruction {
   font-size: 15px;

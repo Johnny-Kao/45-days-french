@@ -182,9 +182,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "先不講語法。今天只建立法語禮貌反應與聲音記憶。",
-      "en": "No grammar focus today. Build polite reflexes and sound memory first.",
-      "ja": "今日は文法を重視しない。丁寧な反応と音の記憶を作る。"
+      "zh": "Bonjour 是正式與一般場合都安全的問候；Salut 偏朋友、熟人，不適合第一次見客戶。",
+      "en": "Bonjour is safe in both formal and neutral contexts; Salut is informal.",
+      "ja": "Bonjour は丁寧・中立で安全。Salut は友人向けで初対面の顧客には不向き。"
     },
     "pronunciationNotes": [
       {
@@ -221,7 +221,64 @@
       "en": "Adult French learning card, theme: Greetings, thanks and apologies, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：あいさつ・感謝・謝罪。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "paris,cafe,street"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "Bonjour vs Salut",
+          "en": "Bonjour vs Salut",
+          "ja": "Bonjour vs Salut"
+        },
+        "explanation": {
+          "zh": "Bonjour 是正式與一般場合都安全的問候；Salut 偏朋友、熟人，不適合第一次見客戶。",
+          "en": "Bonjour is safe in both formal and neutral contexts; Salut is informal.",
+          "ja": "Bonjour は丁寧・中立で安全。Salut は友人向けで初対面の顧客には不向き。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "monsieur / madame 的位置",
+          "en": "monsieur / madame 的位置",
+          "ja": "monsieur / madame 的位置"
+        },
+        "explanation": {
+          "zh": "Bonjour, monsieur. / Bonjour, madame. 敬稱通常放在問候語後面。",
+          "en": "Monsieur/madame normally follows the greeting.",
+          "ja": "monsieur / madame は挨拶の後に置く。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "Je vous en prie",
+          "en": "Je vous en prie",
+          "ja": "Je vous en prie"
+        },
+        "explanation": {
+          "zh": "Je vous en prie 是正式的「不客氣」。熟人間可用 De rien。",
+          "en": "Je vous en prie is a formal 'you are welcome'; De rien is more casual.",
+          "ja": "Je vous en prie は丁寧な「どういたしまして」。De rien はくだけた表現。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "vous 的正式感",
+          "en": "vous 的正式感",
+          "ja": "vous 的正式感"
+        },
+        "explanation": {
+          "zh": "今天所有句子都用 vous 的語域，適合陌生人、店員、正式場合。",
+          "en": "The register is based on vous, suitable for strangers and formal situations.",
+          "ja": "vous の語域で統一。初対面・店員・正式場面に適する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day02",
@@ -379,9 +436,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "je = 我；vous = 您 / 你們。正式場合與客戶場景優先用 vous。",
-      "en": "je means I; vous means you formally or you plural. Use vous by default with clients.",
-      "ja": "je は私、vous は丁寧な「あなた」または複数の「あなたたち」。顧客には基本 vous。"
+      "zh": "Je m’appelle... 直譯是「我叫我自己...」，法語用反身結構表達名字。",
+      "en": "s’appeler is a reflexive verb used to state one's name.",
+      "ja": "s’appeler は再帰動詞で、名前を言う時に使う。"
     },
     "pronunciationNotes": [
       {
@@ -418,7 +475,64 @@
       "en": "Adult French learning card, theme: Self-introduction, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：自己紹介。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "handshake,meeting,introduction"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "s’appeler 是反身動詞",
+          "en": "s’appeler 是反身動詞",
+          "ja": "s’appeler 是反身動詞"
+        },
+        "explanation": {
+          "zh": "Je m’appelle... 直譯是「我叫我自己...」，法語用反身結構表達名字。",
+          "en": "s’appeler is a reflexive verb used to state one's name.",
+          "ja": "s’appeler は再帰動詞で、名前を言う時に使う。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "je / vous 的基本對應",
+          "en": "je / vous 的基本對應",
+          "ja": "je / vous 的基本對應"
+        },
+        "explanation": {
+          "zh": "je = 我；vous = 您 / 你們。正式場合先用 vous。",
+          "en": "je means I; vous means formal you or plural you.",
+          "ja": "je は私、vous は丁寧なあなた／あなたたち。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "comment 的位置",
+          "en": "comment 的位置",
+          "ja": "comment 的位置"
+        },
+        "explanation": {
+          "zh": "Vous vous appelez comment ? 是口語自然問法；正式書面可用 Comment vous appelez-vous ?",
+          "en": "Vous vous appelez comment? is natural spoken French; Comment vous appelez-vous? is more formal.",
+          "ja": "Vous vous appelez comment ? は会話で自然。Comment vous appelez-vous ? はより正式。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "Enchanté 的性別",
+          "en": "Enchanté 的性別",
+          "ja": "Enchanté 的性別"
+        },
+        "explanation": {
+          "zh": "男性說 enchanté；女性可寫 enchantée。口語發音幾乎相同。",
+          "en": "Men write enchanté; women can write enchantée. Pronunciation is almost the same.",
+          "ja": "男性は enchanté、女性は enchantée。発音はほぼ同じ。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day03",
@@ -644,9 +758,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "à + 城市；au / en + 國家。例：à Tokyo, au Japon, en France。",
-      "en": "Use à with cities; au/en with countries. Example: à Tokyo, au Japon, en France.",
-      "ja": "都市には à、国には au/en。例：à Tokyo, au Japon, en France。"
+      "zh": "Je viens de Taïwan = 我來自台灣。venir 的第一人稱是 je viens。",
+      "en": "Je viens de... means I come from...",
+      "ja": "Je viens de... は〜出身です。"
     },
     "pronunciationNotes": [
       {
@@ -691,7 +805,64 @@
       "en": "Adult French learning card, theme: Nationality, languages and residence, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：出身・言語・居住地。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "map,passport,travel"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "venir de",
+          "en": "venir de",
+          "ja": "venir de"
+        },
+        "explanation": {
+          "zh": "Je viens de Taïwan = 我來自台灣。venir 的第一人稱是 je viens。",
+          "en": "Je viens de... means I come from...",
+          "ja": "Je viens de... は〜出身です。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "de / du / d’",
+          "en": "de / du / d’",
+          "ja": "de / du / d’"
+        },
+        "explanation": {
+          "zh": "de + 母音前變 d’；de + le 通常縮成 du。例：d’où, du Japon。",
+          "en": "de becomes d’ before a vowel; de + le contracts to du.",
+          "ja": "de は母音前で d’、de + le は du になる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "habiter à + 城市",
+          "en": "habiter à + 城市",
+          "ja": "habiter à + 城市"
+        },
+        "explanation": {
+          "zh": "J’habite à Tokyo。城市前用 à。",
+          "en": "Use à before cities: J’habite à Tokyo.",
+          "ja": "都市には à：J’habite à Tokyo。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "parler + 語言",
+          "en": "parler + 語言",
+          "ja": "parler + 語言"
+        },
+        "explanation": {
+          "zh": "Je parle français / anglais / japonais。語言名通常不加冠詞。",
+          "en": "Use parler + language without an article in this pattern.",
+          "ja": "parler + 言語名。通常冠詞なし。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day04",
@@ -868,9 +1039,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "être 動詞基本：je suis = 我是 / 我處於某狀態；vous êtes = 您是。",
-      "en": "Basic être: je suis = I am; vous êtes = you are.",
-      "ja": "être の基本：je suis = 私は〜です；vous êtes = あなたは〜です。"
+      "zh": "Comment allez-vous ? 直譯是「您走得如何」，實際意思是「您好嗎」。",
+      "en": "aller can express how someone is doing.",
+      "ja": "aller は状態を表すことがある。"
     },
     "pronunciationNotes": [
       {
@@ -899,7 +1070,64 @@
       "en": "Adult French learning card, theme: Asking how someone is, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：近況を聞く・答える。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "friends,coffee,conversation"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "aller 表狀態",
+          "en": "aller 表狀態",
+          "ja": "aller 表狀態"
+        },
+        "explanation": {
+          "zh": "Comment allez-vous ? 直譯是「您走得如何」，實際意思是「您好嗎」。",
+          "en": "aller can express how someone is doing.",
+          "ja": "aller は状態を表すことがある。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "être 基本變化",
+          "en": "être 基本變化",
+          "ja": "être 基本變化"
+        },
+        "explanation": {
+          "zh": "je suis = 我是；vous êtes = 您是；il/elle est = 他/她是。",
+          "en": "Basic être: je suis, vous êtes, il/elle est.",
+          "ja": "être の基本：je suis, vous êtes, il/elle est。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "形容詞性別",
+          "en": "形容詞性別",
+          "ja": "形容詞性別"
+        },
+        "explanation": {
+          "zh": "fatigué 男性；fatiguée 女性。口語發音通常相同，但書寫不同。",
+          "en": "Adjectives often agree in gender: fatigué/fatiguée.",
+          "ja": "形容詞は性に一致：fatigué/fatiguée。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "un peu",
+          "en": "un peu",
+          "ja": "un peu"
+        },
+        "explanation": {
+          "zh": "un peu 放在形容詞前：un peu fatigué = 有點累。",
+          "en": "un peu precedes the adjective: un peu fatigué.",
+          "ja": "un peu は形容詞の前。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day05",
@@ -1076,9 +1304,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "bonne 會跟陰性名詞搭配：journée, soirée。這裡先整句記住即可。",
-      "en": "bonne agrees with feminine nouns such as journée and soirée. Memorize the full expressions first.",
-      "ja": "bonne は女性名詞 journée, soirée に合わせる。まずは表現ごと覚える。"
+      "zh": "bonne journée / bonne soirée 中 journée、soirée 是陰性，所以用 bonne。",
+      "en": "bonne agrees with feminine nouns journée and soirée.",
+      "ja": "journée / soirée は女性名詞なので bonne。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -1098,7 +1326,64 @@
       "en": "Adult French learning card, theme: Saying goodbye in different settings, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：場面別の別れの挨拶。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "goodbye,farewell,door"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "bonne 的性別配合",
+          "en": "bonne 的性別配合",
+          "ja": "bonne 的性別配合"
+        },
+        "explanation": {
+          "zh": "bonne journée / bonne soirée 中 journée、soirée 是陰性，所以用 bonne。",
+          "en": "bonne agrees with feminine nouns journée and soirée.",
+          "ja": "journée / soirée は女性名詞なので bonne。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "à + 時間表達",
+          "en": "à + 時間表達",
+          "ja": "à + 時間表達"
+        },
+        "explanation": {
+          "zh": "À demain = 明天見；À bientôt = 近期再見；À tout à l’heure = 稍後見。",
+          "en": "à can introduce a future meeting point in farewell expressions.",
+          "ja": "à は別れ際に再会時点を示せる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "merci pour",
+          "en": "merci pour",
+          "ja": "merci pour"
+        },
+        "explanation": {
+          "zh": "Merci pour votre aide = 謝謝您的幫助。pour 後接名詞。",
+          "en": "Merci pour + noun means thank you for...",
+          "ja": "Merci pour + 名詞 = 〜をありがとう。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "votre",
+          "en": "votre",
+          "ja": "votre"
+        },
+        "explanation": {
+          "zh": "votre = 您的。正式場合比 ton 更安全。",
+          "en": "votre means your in formal or plural contexts.",
+          "ja": "votre は丁寧な「あなたの」。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day06",
@@ -1275,9 +1560,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "否定句基本：ne + 動詞 + pas。口語常弱化 ne，但初學與正式場合先完整說。",
-      "en": "Basic negation: ne + verb + pas. Spoken French may drop ne, but use the full form first.",
-      "ja": "否定文は ne + 動詞 + pas。会話では ne が落ちることもあるが、まず正式形で覚える。"
+      "zh": "Je ne comprends pas = 我不懂。否定句基本框架是 ne + 動詞 + pas。",
+      "en": "Basic negation is ne + verb + pas.",
+      "ja": "否定文は ne + 動詞 + pas。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -1297,7 +1582,64 @@
       "en": "Adult French learning card, theme: Handling not understanding, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：聞き取れない時の対応。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "language,confused,listening"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "ne...pas",
+          "en": "ne...pas",
+          "ja": "ne...pas"
+        },
+        "explanation": {
+          "zh": "Je ne comprends pas = 我不懂。否定句基本框架是 ne + 動詞 + pas。",
+          "en": "Basic negation is ne + verb + pas.",
+          "ja": "否定文は ne + 動詞 + pas。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "口語中的 ne",
+          "en": "口語中的 ne",
+          "ja": "口語中的 ne"
+        },
+        "explanation": {
+          "zh": "口語常省略 ne：Je comprends pas。但初學與正式場合先保留 ne。",
+          "en": "Spoken French often drops ne, but keep it in formal/beginner usage.",
+          "ja": "口語では ne が落ちることがあるが、最初は残す。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pouvoir + 不定詞",
+          "en": "pouvoir + 不定詞",
+          "ja": "pouvoir + 不定詞"
+        },
+        "explanation": {
+          "zh": "Pouvez-vous parler anglais ? 中 parler 是原形。pouvoir 後接不定詞。",
+          "en": "pouvoir is followed by an infinitive.",
+          "ja": "pouvoir の後は不定詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "s’il vous plaît",
+          "en": "s’il vous plaît",
+          "ja": "s’il vous plaît"
+        },
+        "explanation": {
+          "zh": "s’il vous plaît 是正式「請」。朋友間可用 s’il te plaît。",
+          "en": "s’il vous plaît is formal please; s’il te plaît is informal.",
+          "ja": "s’il vous plaît は丁寧な「お願いします」。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day07",
@@ -1474,9 +1816,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "vous 比 tu 更安全。正式場合、客戶、陌生人，一律先用 vous。",
-      "en": "Vous is safer than tu. Use vous first with clients, strangers and formal settings.",
-      "ja": "tu より vous が安全。顧客・初対面・正式な場面では基本 vous。"
+      "zh": "Pourriez-vous...? 比 Pouvez-vous...? 更客氣，適合請求協助。",
+      "en": "Pourriez-vous...? is more polite than Pouvez-vous...?",
+      "ja": "Pourriez-vous...? は Pouvez-vous...? より丁寧。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -1496,7 +1838,64 @@
       "en": "Adult French learning card, theme: Polite requests, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：丁寧な依頼。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "help,service,assistance"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "條件式禮貌",
+          "en": "條件式禮貌",
+          "ja": "條件式禮貌"
+        },
+        "explanation": {
+          "zh": "Pourriez-vous...? 比 Pouvez-vous...? 更客氣，適合請求協助。",
+          "en": "Pourriez-vous...? is more polite than Pouvez-vous...?",
+          "ja": "Pourriez-vous...? は Pouvez-vous...? より丁寧。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "m’aider 的 m’",
+          "en": "m’aider 的 m’",
+          "ja": "m’aider 的 m’"
+        },
+        "explanation": {
+          "zh": "m’aider = me aider 的縮合，母音前 me 變 m’。",
+          "en": "m’aider contracts from me aider before a vowel.",
+          "ja": "m’aider は me aider の縮約。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "merci pour + 名詞",
+          "en": "merci pour + 名詞",
+          "ja": "merci pour + 名詞"
+        },
+        "explanation": {
+          "zh": "Merci pour votre temps / votre aide。pour 後接名詞片語。",
+          "en": "Merci pour is followed by a noun phrase.",
+          "ja": "Merci pour の後は名詞句。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "un instant",
+          "en": "un instant",
+          "ja": "un instant"
+        },
+        "explanation": {
+          "zh": "Un instant, s’il vous plaît 是固定禮貌句，可直接背。",
+          "en": "Un instant, s’il vous plaît is a fixed polite phrase.",
+          "ja": "Un instant, s’il vous plaît は定型句として覚える。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day08",
@@ -1682,9 +2081,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "數字先聽懂比背規則重要。70/80/90 之後再專門練。",
-      "en": "Understanding numbers by ear matters more than rules at first. Practice 70/80/90 separately later.",
-      "ja": "まず規則より聞き取りが重要。70/80/90 は後で重点練習。"
+      "zh": "C’est vingt euros = 這是 20 歐元。價格說明常用 c’est。",
+      "en": "Use c’est to state a price.",
+      "ja": "価格には c’est をよく使う。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -1704,7 +2103,64 @@
       "en": "Adult French learning card, theme: Numbers 1–100, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：数字 1〜100。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "numbers,calculator,digits"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "c’est + 金額",
+          "en": "c’est + 金額",
+          "ja": "c’est + 金額"
+        },
+        "explanation": {
+          "zh": "C’est vingt euros = 這是 20 歐元。價格說明常用 c’est。",
+          "en": "Use c’est to state a price.",
+          "ja": "価格には c’est をよく使う。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il y a",
+          "en": "il y a",
+          "ja": "il y a"
+        },
+        "explanation": {
+          "zh": "Il y a trois personnes = 有三個人。il y a 表示「有」。",
+          "en": "il y a means there is/there are.",
+          "ja": "il y a は「ある／いる」。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "numéro",
+          "en": "numéro",
+          "ja": "numéro"
+        },
+        "explanation": {
+          "zh": "La chambre numéro douze = 12 號房。numéro 可接數字。",
+          "en": "numéro introduces a number: room number twelve.",
+          "ja": "numéro は番号を導入する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "法語數字 70/80/90",
+          "en": "法語數字 70/80/90",
+          "ja": "法語數字 70/80/90"
+        },
+        "explanation": {
+          "zh": "70、80、90 有特殊邏輯，後面應單獨聽力練習；本課先掌握 1–100 的聲音。",
+          "en": "French 70/80/90 have special patterns and should be drilled separately.",
+          "ja": "70/80/90 は特殊なので別途練習する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day09",
@@ -1877,9 +2333,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "疑問句可以用語調、est-ce que 或倒裝。初學優先用語調與 est-ce que。",
-      "en": "Questions can use intonation, est-ce que, or inversion. Prioritize intonation and est-ce que first.",
-      "ja": "疑問文はイントネーション、est-ce que、倒置がある。まずはイントネーションと est-ce que。"
+      "zh": "Quelle heure est-il ? 是固定問時間句。heure 是陰性，所以用 quelle。",
+      "en": "heure is feminine, so use quelle.",
+      "ja": "heure は女性名詞なので quelle。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -1899,7 +2355,64 @@
       "en": "Adult French learning card, theme: Asking the time, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：時間を聞く。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "clock,watch,time"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "Quelle heure",
+          "en": "Quelle heure",
+          "ja": "Quelle heure"
+        },
+        "explanation": {
+          "zh": "Quelle heure est-il ? 是固定問時間句。heure 是陰性，所以用 quelle。",
+          "en": "heure is feminine, so use quelle.",
+          "ja": "heure は女性名詞なので quelle。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il est + 時間",
+          "en": "il est + 時間",
+          "ja": "il est + 時間"
+        },
+        "explanation": {
+          "zh": "Il est neuf heures = 現在九點。時間表達用 il est。",
+          "en": "Use il est to tell time.",
+          "ja": "時刻には il est を使う。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "à + 時間",
+          "en": "à + 時間",
+          "ja": "à + 時間"
+        },
+        "explanation": {
+          "zh": "Le rendez-vous est à dix heures。具體時間前用 à。",
+          "en": "Use à before a specific time.",
+          "ja": "具体的な時刻には à。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "en retard / à l’heure",
+          "en": "en retard / à l’heure",
+          "ja": "en retard / à l’heure"
+        },
+        "explanation": {
+          "zh": "Je suis en retard = 我遲到；Je suis à l’heure = 我準時。",
+          "en": "en retard means late; à l’heure means on time.",
+          "ja": "en retard は遅刻、à l’heure は時間通り。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day10",
@@ -2085,9 +2598,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "lundi = 這個星期一；le lundi = 每週一。先記不加 le 是單次日期。",
-      "en": "lundi means this Monday; le lundi means every Monday. First remember no le for a single date.",
-      "ja": "lundi はその月曜日、le lundi は毎週月曜日。まず単発は le なし。"
+      "zh": "Aujourd’hui = 今天；demain = 明天；hier = 昨天。時間副詞常放句首。",
+      "en": "Time adverbs often appear at the beginning of the sentence.",
+      "ja": "時間副詞は文頭に置きやすい。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -2107,7 +2620,64 @@
       "en": "Adult French learning card, theme: Dates and weekdays, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：日付と曜日。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "calendar,planner,schedule"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "Aujourd’hui / demain / hier",
+          "en": "Aujourd’hui / demain / hier",
+          "ja": "Aujourd’hui / demain / hier"
+        },
+        "explanation": {
+          "zh": "Aujourd’hui = 今天；demain = 明天；hier = 昨天。時間副詞常放句首。",
+          "en": "Time adverbs often appear at the beginning of the sentence.",
+          "ja": "時間副詞は文頭に置きやすい。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "c’est + 星期",
+          "en": "c’est + 星期",
+          "ja": "c’est + 星期"
+        },
+        "explanation": {
+          "zh": "Aujourd’hui, c’est mardi = 今天是星期二。",
+          "en": "Use c’est with weekdays in simple statements.",
+          "ja": "曜日には c’est を使える。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "c’était",
+          "en": "c’était",
+          "ja": "c’était"
+        },
+        "explanation": {
+          "zh": "Hier, c’était dimanche。c’était 是 c’est 的過去形式。",
+          "en": "c’était is the past form of c’est.",
+          "ja": "c’était は c’est の過去形。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "être disponible",
+          "en": "être disponible",
+          "ja": "être disponible"
+        },
+        "explanation": {
+          "zh": "Je suis disponible jeudi = 我週四有空。disponible 表示可用/有空。",
+          "en": "être disponible means to be available.",
+          "ja": "être disponible は空いている。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day11",
@@ -2280,9 +2850,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "c'est 用於判斷或指稱；ça 可指眼前那個東西或整件事。",
-      "en": "c'est identifies or states what something is; ça points to the thing or situation at hand.",
-      "ja": "c'est は判断・指示、ça は目の前の物や状況を指す。"
+      "zh": "C’est combien ? / Ça coûte combien ? 都是在問價格。",
+      "en": "combien asks how much/how many.",
+      "ja": "combien は金額・数量を尋ねる。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -2302,7 +2872,64 @@
       "en": "Adult French learning card, theme: Prices and payment, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：価格と支払い。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "payment,shopping,cashier"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "combien",
+          "en": "combien",
+          "ja": "combien"
+        },
+        "explanation": {
+          "zh": "C’est combien ? / Ça coûte combien ? 都是在問價格。",
+          "en": "combien asks how much/how many.",
+          "ja": "combien は金額・数量を尋ねる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "voudrais",
+          "en": "voudrais",
+          "ja": "voudrais"
+        },
+        "explanation": {
+          "zh": "Je voudrais payer = 我想付款。voudrais 是委婉說法，比 je veux 客氣。",
+          "en": "voudrais is a polite conditional form.",
+          "ja": "voudrais は丁寧な条件法。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "par carte / en espèces",
+          "en": "par carte / en espèces",
+          "ja": "par carte / en espèces"
+        },
+        "explanation": {
+          "zh": "par carte = 刷卡；en espèces = 現金。付款方式常用 par / en。",
+          "en": "Payment methods use par carte and en espèces.",
+          "ja": "支払い方法は par carte / en espèces。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "un reçu",
+          "en": "un reçu",
+          "ja": "un reçu"
+        },
+        "explanation": {
+          "zh": "Avez-vous un reçu ? = 有收據嗎？avez-vous 是正式倒裝問法。",
+          "en": "Avez-vous...? is a formal inverted question.",
+          "ja": "Avez-vous...? は丁寧な倒置疑問。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day12",
@@ -2488,9 +3115,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "je voudrais 比 je veux 更禮貌，正式場合與服務場景優先用 je voudrais。",
-      "en": "je voudrais is more polite than je veux. Use it in formal and service situations.",
-      "ja": "je voudrais は je veux より丁寧。サービス場面では優先。"
+      "zh": "Je voudrais un café = 我想要一杯咖啡。點餐最安全句型。",
+      "en": "Je voudrais + noun is a safe ordering pattern.",
+      "ja": "Je voudrais + 名詞 は注文で安全。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -2510,7 +3137,64 @@
       "en": "Adult French learning card, theme: Ordering food and drinks, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：飲み物・食事の注文。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "cafe,espresso,ordering"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "je voudrais + 名詞",
+          "en": "je voudrais + 名詞",
+          "ja": "je voudrais + 名詞"
+        },
+        "explanation": {
+          "zh": "Je voudrais un café = 我想要一杯咖啡。點餐最安全句型。",
+          "en": "Je voudrais + noun is a safe ordering pattern.",
+          "ja": "Je voudrais + 名詞 は注文で安全。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "un / une",
+          "en": "un / une",
+          "ja": "un / une"
+        },
+        "explanation": {
+          "zh": "un café；une bouteille。冠詞要跟名詞性別配合。",
+          "en": "un/une agree with noun gender.",
+          "ja": "un/une は名詞の性に一致。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "avec / sans",
+          "en": "avec / sans",
+          "ja": "avec / sans"
+        },
+        "explanation": {
+          "zh": "avec du lait = 加牛奶；sans sucre = 不加糖。",
+          "en": "avec means with; sans means without.",
+          "ja": "avec は〜あり、sans は〜なし。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pour ici / à emporter",
+          "en": "pour ici / à emporter",
+          "ja": "pour ici / à emporter"
+        },
+        "explanation": {
+          "zh": "pour ici = 內用；à emporter = 外帶。餐飲高頻。",
+          "en": "pour ici means for here; à emporter means to go.",
+          "ja": "pour ici は店内、à emporter は持ち帰り。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day13",
@@ -2696,9 +3380,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "où = 哪裡。où est + 單數；où sont + 複數。",
-      "en": "où means where. Use où est with singular and où sont with plural.",
-      "ja": "où は「どこ」。単数は où est、複数は où sont。"
+      "zh": "Où est la gare ? où 問地點。",
+      "en": "où asks where.",
+      "ja": "où は場所を尋ねる。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -2718,7 +3402,64 @@
       "en": "Adult French learning card, theme: Asking for places, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：場所を聞く。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "street,navigation,map"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "où",
+          "en": "où",
+          "ja": "où"
+        },
+        "explanation": {
+          "zh": "Où est la gare ? où 問地點。",
+          "en": "où asks where.",
+          "ja": "où は場所を尋ねる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "est / sont",
+          "en": "est / sont",
+          "ja": "est / sont"
+        },
+        "explanation": {
+          "zh": "Où est la gare ? 單數用 est；Où sont les toilettes ? 複數用 sont。",
+          "en": "Use est for singular and sont for plural.",
+          "ja": "単数は est、複数は sont。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "près de / loin de",
+          "en": "près de / loin de",
+          "ja": "près de / loin de"
+        },
+        "explanation": {
+          "zh": "près d’ici = 離這裡近；loin d’ici = 離這裡遠。",
+          "en": "près de means near; loin de means far from.",
+          "ja": "près de は近い、loin de は遠い。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "montrer",
+          "en": "montrer",
+          "ja": "montrer"
+        },
+        "explanation": {
+          "zh": "Pouvez-vous me montrer sur la carte ? me 是「給我/向我」。",
+          "en": "me means to me/me in this request.",
+          "ja": "me は「私に／私を」。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day14",
@@ -2904,9 +3645,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "à / de / dans / sur 先用空間感記，不急著完整整理介系詞系統。",
-      "en": "Learn à/de/dans/sur first by spatial feeling; do not over-systematize prepositions yet.",
-      "ja": "à/de/dans/sur はまず空間感覚で覚える。介詞体系を急がない。"
+      "zh": "Tournez à gauche / Continuez tout droit。正式命令式常用 -ez。",
+      "en": "Formal imperative with vous often ends in -ez.",
+      "ja": "vous の命令形は多くが -ez。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -2926,7 +3667,64 @@
       "en": "Adult French learning card, theme: Understanding directions, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：道案内を理解する。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "crossroads,directions,corner"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "命令式 vous",
+          "en": "命令式 vous",
+          "ja": "命令式 vous"
+        },
+        "explanation": {
+          "zh": "Tournez à gauche / Continuez tout droit。正式命令式常用 -ez。",
+          "en": "Formal imperative with vous often ends in -ez.",
+          "ja": "vous の命令形は多くが -ez。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "à gauche / à droite",
+          "en": "à gauche / à droite",
+          "ja": "à gauche / à droite"
+        },
+        "explanation": {
+          "zh": "à gauche = 在左邊/往左；à droite = 在右邊/往右。",
+          "en": "à gauche/right can mean on/to the left/right.",
+          "ja": "à gauche / à droite は左／右。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "en face / à côté de",
+          "en": "en face / à côté de",
+          "ja": "en face / à côté de"
+        },
+        "explanation": {
+          "zh": "en face = 對面；à côté de = 旁邊。",
+          "en": "en face means opposite; à côté de means next to.",
+          "ja": "en face は向かい、à côté de は隣。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "entre A et B",
+          "en": "entre A et B",
+          "ja": "entre A et B"
+        },
+        "explanation": {
+          "zh": "entre la pharmacie et le café = 在藥局和咖啡館之間。",
+          "en": "entre A et B means between A and B.",
+          "ja": "entre A et B はAとBの間。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day15",
@@ -3112,9 +3910,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "au / à la / à l’：au restaurant, à la gare, à l’hôtel。先整句吸收。",
-      "en": "au / à la / à l’: au restaurant, à la gare, à l’hôtel. Learn as chunks first.",
-      "ja": "au / à la / à l’：au restaurant, à la gare, à l’hôtel。まず固まりで覚える。"
+      "zh": "gare 是陰性，所以是 à la gare。",
+      "en": "gare is feminine, so use à la.",
+      "ja": "gare は女性名詞なので à la。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -3134,7 +3932,64 @@
       "en": "Adult French learning card, theme: At the station and metro, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：駅と地下鉄。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "train,station,platform"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "à la gare",
+          "en": "à la gare",
+          "ja": "à la gare"
+        },
+        "explanation": {
+          "zh": "gare 是陰性，所以是 à la gare。",
+          "en": "gare is feminine, so use à la.",
+          "ja": "gare は女性名詞なので à la。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "quel / quelle",
+          "en": "quel / quelle",
+          "ja": "quel / quelle"
+        },
+        "explanation": {
+          "zh": "Quel quai ? quai 是陽性，所以用 quel。陰性名詞用 quelle。",
+          "en": "quel agrees with masculine nouns; quelle with feminine nouns.",
+          "ja": "quel/quelle は名詞の性に一致。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "devoir + 不定詞",
+          "en": "devoir + 不定詞",
+          "ja": "devoir + 不定詞"
+        },
+        "explanation": {
+          "zh": "Je dois changer = 我必須轉車。dois 後接原形。",
+          "en": "devoir is followed by an infinitive.",
+          "ja": "devoir の後は不定詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "être en retard",
+          "en": "être en retard",
+          "ja": "être en retard"
+        },
+        "explanation": {
+          "zh": "Le train est en retard = 火車誤點。人與交通工具都可用 en retard。",
+          "en": "en retard can describe people or transport being late.",
+          "ja": "en retard は人にも交通機関にも使える。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day16",
@@ -3320,9 +4175,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "冠詞先用固定搭配：un billet, une place, le train, la gare。",
-      "en": "Learn articles through chunks first: un billet, une place, le train, la gare.",
-      "ja": "冠詞はまず固まりで覚える：un billet, une place, le train, la gare。"
+      "zh": "Un billet pour Paris = 一張去巴黎的票。目的地前用 pour。",
+      "en": "un billet pour + destination means a ticket to...",
+      "ja": "un billet pour + 目的地。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -3342,7 +4197,64 @@
       "en": "Adult French learning card, theme: Buying tickets, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：切符を買う。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "ticket,counter,railway"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "un billet pour",
+          "en": "un billet pour",
+          "ja": "un billet pour"
+        },
+        "explanation": {
+          "zh": "Un billet pour Paris = 一張去巴黎的票。目的地前用 pour。",
+          "en": "un billet pour + destination means a ticket to...",
+          "ja": "un billet pour + 目的地。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "aller simple / aller-retour",
+          "en": "aller simple / aller-retour",
+          "ja": "aller simple / aller-retour"
+        },
+        "explanation": {
+          "zh": "aller simple = 單程；aller-retour = 來回。票務固定表達。",
+          "en": "aller simple means one-way; aller-retour means return.",
+          "ja": "aller simple は片道、aller-retour は往復。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "deux billets",
+          "en": "deux billets",
+          "ja": "deux billets"
+        },
+        "explanation": {
+          "zh": "billet 複數加 s：deux billets。多數情況 s 不發音。",
+          "en": "Plural nouns often add s, usually silent.",
+          "ja": "複数は s を付けるが、多くは発音しない。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "en première/seconde classe",
+          "en": "en première/seconde classe",
+          "ja": "en première/seconde classe"
+        },
+        "explanation": {
+          "zh": "en première classe / en seconde classe。交通艙等用 en。",
+          "en": "Use en with travel class expressions.",
+          "ja": "等級には en を使う。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day17",
@@ -3528,9 +4440,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "J’ai = je + ai，意思是「我有」。飯店場景高頻：J’ai une réservation。",
-      "en": "J’ai = je + ai, meaning I have. High-frequency hotel phrase: J’ai une réservation.",
-      "ja": "J’ai = je + ai、「私は持っている」。ホテルでは J’ai une réservation が高頻度。"
+      "zh": "J’ai une réservation = 我有預約。avoir 用於「有」。",
+      "en": "avoir means to have.",
+      "ja": "avoir は「持っている／ある」。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -3550,7 +4462,64 @@
       "en": "Adult French learning card, theme: Hotel check-in, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：ホテルチェックイン。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "hotel,lobby,reception"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "avoir une réservation",
+          "en": "avoir une réservation",
+          "ja": "avoir une réservation"
+        },
+        "explanation": {
+          "zh": "J’ai une réservation = 我有預約。avoir 用於「有」。",
+          "en": "avoir means to have.",
+          "ja": "avoir は「持っている／ある」。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "au nom de",
+          "en": "au nom de",
+          "ja": "au nom de"
+        },
+        "explanation": {
+          "zh": "Au nom de Kao = 以 Kao 的名字。飯店入住高頻。",
+          "en": "au nom de means under the name of.",
+          "ja": "au nom de は〜の名前で。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il y a",
+          "en": "il y a",
+          "ja": "il y a"
+        },
+        "explanation": {
+          "zh": "Il y a le Wi-Fi ? = 有 Wi-Fi 嗎？口語可用 il y a 問是否有。",
+          "en": "il y a can ask whether something exists.",
+          "ja": "il y a は有無を尋ねられる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "garder",
+          "en": "garder",
+          "ja": "garder"
+        },
+        "explanation": {
+          "zh": "Pouvez-vous garder mes bagages ? = 可以保管我的行李嗎？",
+          "en": "garder means to keep/hold/store.",
+          "ja": "garder は預かる／保管する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day18",
@@ -3736,9 +4705,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "pouvoir / vouloir + 不定詞：Je peux payer. Je voudrais commander. 很高頻。",
-      "en": "pouvoir / vouloir + infinitive: Je peux payer. Je voudrais commander. Very common.",
-      "ja": "pouvoir / vouloir + 不定詞：Je peux payer. Je voudrais commander. 高頻度。"
+      "zh": "Nous avons une réservation = 我們有預約。nous 是我們。",
+      "en": "nous avons means we have.",
+      "ja": "nous avons は私たちは持っている。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -3758,7 +4727,64 @@
       "en": "Adult French learning card, theme: Full restaurant ordering, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：レストランでの注文。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "restaurant,dining,table"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "nous avons",
+          "en": "nous avons",
+          "ja": "nous avons"
+        },
+        "explanation": {
+          "zh": "Nous avons une réservation = 我們有預約。nous 是我們。",
+          "en": "nous avons means we have.",
+          "ja": "nous avons は私たちは持っている。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pour deux",
+          "en": "pour deux",
+          "ja": "pour deux"
+        },
+        "explanation": {
+          "zh": "Une table pour deux = 兩人桌。餐廳高頻。",
+          "en": "pour deux means for two.",
+          "ja": "pour deux は2名で。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "recommander",
+          "en": "recommander",
+          "ja": "recommander"
+        },
+        "explanation": {
+          "zh": "Qu’est-ce que vous recommandez ? = 您推薦什麼？",
+          "en": "recommander means to recommend.",
+          "ja": "recommander はおすすめする。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "allergique à",
+          "en": "allergique à",
+          "ja": "allergique à"
+        },
+        "explanation": {
+          "zh": "Je suis allergique à... = 我對...過敏。à 後接過敏源。",
+          "en": "allergique à means allergic to.",
+          "ja": "allergique à は〜にアレルギーがある。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day19",
@@ -3944,9 +4970,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "反身動詞 se sentir：Je me sens bien / Je ne me sens pas bien。先背這兩句。",
-      "en": "Reflexive verb se sentir: Je me sens bien / Je ne me sens pas bien. Memorize these first.",
-      "ja": "再帰動詞 se sentir：Je me sens bien / Je ne me sens pas bien。まずこの2文を覚える。"
+      "zh": "Je ne me sens pas bien = 我感覺不舒服。se sentir 是反身動詞。",
+      "en": "se sentir is a reflexive verb meaning to feel.",
+      "ja": "se sentir は再帰動詞で「感じる」。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -3966,7 +4992,64 @@
       "en": "Adult French learning card, theme: Feeling unwell and pharmacy, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：体調不良と薬局。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "pharmacy,medicine,health"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "se sentir",
+          "en": "se sentir",
+          "ja": "se sentir"
+        },
+        "explanation": {
+          "zh": "Je ne me sens pas bien = 我感覺不舒服。se sentir 是反身動詞。",
+          "en": "se sentir is a reflexive verb meaning to feel.",
+          "ja": "se sentir は再帰動詞で「感じる」。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "avoir mal à",
+          "en": "avoir mal à",
+          "ja": "avoir mal à"
+        },
+        "explanation": {
+          "zh": "J’ai mal à la tête / au ventre。身體部位前的 à 會和冠詞縮合。",
+          "en": "avoir mal à expresses pain in a body part.",
+          "ja": "avoir mal à は身体部位の痛み。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "au = à + le",
+          "en": "au = à + le",
+          "ja": "au = à + le"
+        },
+        "explanation": {
+          "zh": "au ventre = à + le ventre。à + le 會縮合成 au。",
+          "en": "au is a contraction of à + le.",
+          "ja": "au は à + le の縮約。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "quelque chose pour",
+          "en": "quelque chose pour",
+          "ja": "quelque chose pour"
+        },
+        "explanation": {
+          "zh": "quelque chose pour la douleur = 治痛的東西。pour 表用途。",
+          "en": "pour can express purpose: something for pain.",
+          "ja": "pour は用途を表せる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day20",
@@ -4152,9 +5235,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "faire 的高頻搭配：faire les courses, faire du sport, faire attention。",
-      "en": "Common faire chunks: faire les courses, faire du sport, faire attention.",
-      "ja": "faire の高頻度表現：faire les courses, faire du sport, faire attention。"
+      "zh": "Je cherche du lait。不可數或部分量常用 du/de la/des。",
+      "en": "Partitive articles express some/any amount.",
+      "ja": "部分冠詞 du/de la/des は一部・不定量を表す。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -4174,7 +5257,64 @@
       "en": "Adult French learning card, theme: Grocery shopping, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：スーパーで買い物。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "supermarket,grocery,aisle"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "du / de la / des",
+          "en": "du / de la / des",
+          "ja": "du / de la / des"
+        },
+        "explanation": {
+          "zh": "Je cherche du lait。不可數或部分量常用 du/de la/des。",
+          "en": "Partitive articles express some/any amount.",
+          "ja": "部分冠詞 du/de la/des は一部・不定量を表す。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "rayon des fruits",
+          "en": "rayon des fruits",
+          "ja": "rayon des fruits"
+        },
+        "explanation": {
+          "zh": "des = de + les。rayon des fruits = 水果區。",
+          "en": "des can be de + les in phrases like rayon des fruits.",
+          "ja": "des は de + les の縮約にもなる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "avoir besoin de",
+          "en": "avoir besoin de",
+          "ja": "avoir besoin de"
+        },
+        "explanation": {
+          "zh": "Je n’ai pas besoin de reçu = 我不需要收據。besoin 後接 de。",
+          "en": "avoir besoin de means to need.",
+          "ja": "avoir besoin de は〜が必要。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "c’est tout",
+          "en": "c’est tout",
+          "ja": "c’est tout"
+        },
+        "explanation": {
+          "zh": "C’est tout = 就這些。結帳時很實用。",
+          "en": "C’est tout means that’s all.",
+          "ja": "C’est tout は以上です。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day21",
@@ -4360,9 +5500,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "非人稱句：il fait / il y a / il pleut。這裡的 il 不等於某個人。",
-      "en": "Impersonal expressions: il fait / il y a / il pleut. Here il does not refer to a person.",
-      "ja": "非人称表現：il fait / il y a / il pleut。この il は人を指さない。"
+      "zh": "Il fait beau / chaud / froid。描述天氣常用 il fait。",
+      "en": "Use il fait with weather adjectives.",
+      "ja": "天気には il fait + 形容詞。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -4382,7 +5522,64 @@
       "en": "Adult French learning card, theme: Weather conversation, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：天気の会話。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "weather,sky,umbrella"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "il fait + 天氣",
+          "en": "il fait + 天氣",
+          "ja": "il fait + 天氣"
+        },
+        "explanation": {
+          "zh": "Il fait beau / chaud / froid。描述天氣常用 il fait。",
+          "en": "Use il fait with weather adjectives.",
+          "ja": "天気には il fait + 形容詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il pleut / il neige",
+          "en": "il pleut / il neige",
+          "ja": "il pleut / il neige"
+        },
+        "explanation": {
+          "zh": "下雨/下雪用非人稱 il：Il pleut, il neige。",
+          "en": "Weather verbs use impersonal il.",
+          "ja": "天気動詞は非人称 il。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il y a du vent",
+          "en": "il y a du vent",
+          "ja": "il y a du vent"
+        },
+        "explanation": {
+          "zh": "有風 = Il y a du vent。不是 le vent est。",
+          "en": "Il y a du vent means it is windy.",
+          "ja": "風があるは Il y a du vent。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "近未來",
+          "en": "近未來",
+          "ja": "近未來"
+        },
+        "explanation": {
+          "zh": "Demain, il va pleuvoir = 明天會下雨。aller + 不定詞表示近未來。",
+          "en": "aller + infinitive expresses near future.",
+          "ja": "aller + 不定詞 は近未来。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day22",
@@ -4568,9 +5765,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "所有格：mon/ma/mes = 我的；votre/vos = 您的。先用整句：ma femme, mes parents。",
-      "en": "Possessives: mon/ma/mes = my; votre/vos = your. Learn chunks: ma femme, mes parents.",
-      "ja": "所有形容詞：mon/ma/mes = 私の；votre/vos = あなたの。まず ma femme, mes parents。"
+      "zh": "mon père, ma femme, mes parents。所有格隨名詞性別/數量變化。",
+      "en": "Possessives agree with the noun: mon/ma/mes.",
+      "ja": "所有形容詞は名詞に一致：mon/ma/mes。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -4590,7 +5787,64 @@
       "en": "Adult French learning card, theme: Introducing family, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：家族紹介。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "family,portrait,home"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "mon / ma / mes",
+          "en": "mon / ma / mes",
+          "ja": "mon / ma / mes"
+        },
+        "explanation": {
+          "zh": "mon père, ma femme, mes parents。所有格隨名詞性別/數量變化。",
+          "en": "Possessives agree with the noun: mon/ma/mes.",
+          "ja": "所有形容詞は名詞に一致：mon/ma/mes。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "être marié",
+          "en": "être marié",
+          "ja": "être marié"
+        },
+        "explanation": {
+          "zh": "Je suis marié/mariée = 我已婚。性別影響書寫。",
+          "en": "marié/mariée agrees with the speaker's gender.",
+          "ja": "marié/mariée は話者の性に一致。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "avoir + 家人",
+          "en": "avoir + 家人",
+          "ja": "avoir + 家人"
+        },
+        "explanation": {
+          "zh": "J’ai un frère / une sœur。介紹家人用 avoir。",
+          "en": "Use avoir to say you have family members.",
+          "ja": "家族構成には avoir。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "habiter à / au",
+          "en": "habiter à / au",
+          "ja": "habiter à / au"
+        },
+        "explanation": {
+          "zh": "Ma famille habite à Taïwan / au Japon。城市用 à，部分國家用 au。",
+          "en": "Use à for cities, au/en for countries.",
+          "ja": "都市は à、国は au/en。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day23",
@@ -4776,9 +6030,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "Je suis + 職業通常不加冠詞：Je suis consultant。",
-      "en": "Je suis + profession usually takes no article: Je suis consultant.",
-      "ja": "Je suis + 職業は通常冠詞なし：Je suis consultant。"
+      "zh": "Je travaille dans la finance = 我在金融業工作。行業常用 dans。",
+      "en": "Use travailler dans for industries/fields.",
+      "ja": "業界には travailler dans。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -4798,7 +6052,64 @@
       "en": "Adult French learning card, theme: Work and profession, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：仕事と職業。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "office,business,desk"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "Je travaille dans",
+          "en": "Je travaille dans",
+          "ja": "Je travaille dans"
+        },
+        "explanation": {
+          "zh": "Je travaille dans la finance = 我在金融業工作。行業常用 dans。",
+          "en": "Use travailler dans for industries/fields.",
+          "ja": "業界には travailler dans。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "Je suis + 職業",
+          "en": "Je suis + 職業",
+          "ja": "Je suis + 職業"
+        },
+        "explanation": {
+          "zh": "Je suis consultant。職業通常不加冠詞。",
+          "en": "Professions after Je suis usually omit the article.",
+          "ja": "Je suis + 職業 では通常冠詞なし。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "s’occuper de",
+          "en": "s’occuper de",
+          "ja": "s’occuper de"
+        },
+        "explanation": {
+          "zh": "Je m’occupe de... = 我負責...。de 後接工作內容。",
+          "en": "s’occuper de means to handle/be responsible for.",
+          "ja": "s’occuper de は担当する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "lié à",
+          "en": "lié à",
+          "ja": "lié à"
+        },
+        "explanation": {
+          "zh": "Mon travail est lié à... = 我的工作與...相關。lié 要跟主語配合。",
+          "en": "lié à means related to; it agrees with the subject.",
+          "ja": "lié à は〜に関係する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day24",
@@ -4984,9 +6295,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "aimer + 名詞；aimer + 不定詞。例：J'aime le café. J'aime voyager。",
-      "en": "aimer + noun; aimer + infinitive. Example: J'aime le café. J'aime voyager.",
-      "ja": "aimer + 名詞、aimer + 不定詞。例：J'aime le café. J'aime voyager。"
+      "zh": "J’aime le café = 我喜歡咖啡。法語表一般喜好常用定冠詞 le/la/les。",
+      "en": "For general likes, French often uses definite articles.",
+      "ja": "一般的な好みには定冠詞を使う。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -5006,7 +6317,64 @@
       "en": "Adult French learning card, theme: Likes and dislikes, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：好き嫌い。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "music,hobbies,lifestyle"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "aimer + 名詞",
+          "en": "aimer + 名詞",
+          "ja": "aimer + 名詞"
+        },
+        "explanation": {
+          "zh": "J’aime le café = 我喜歡咖啡。法語表一般喜好常用定冠詞 le/la/les。",
+          "en": "For general likes, French often uses definite articles.",
+          "ja": "一般的な好みには定冠詞を使う。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "aimer + 不定詞",
+          "en": "aimer + 不定詞",
+          "ja": "aimer + 不定詞"
+        },
+        "explanation": {
+          "zh": "J’aime voyager = 我喜歡旅行。動作喜好用 aimer + 原形。",
+          "en": "Use aimer + infinitive for liking an activity.",
+          "ja": "動作の好みは aimer + 不定詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "préférer",
+          "en": "préférer",
+          "ja": "préférer"
+        },
+        "explanation": {
+          "zh": "Je préfère le thé = 我比較喜歡茶。préférer 表偏好。",
+          "en": "préférer means to prefer.",
+          "ja": "préférer は〜の方が好き。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "ce n’est pas",
+          "en": "ce n’est pas",
+          "ja": "ce n’est pas"
+        },
+        "explanation": {
+          "zh": "Ce n’est pas mon style = 這不是我的風格。c’est 的否定是 ce n’est pas。",
+          "en": "ce n’est pas is the negative of c’est.",
+          "ja": "c’est の否定は ce n’est pas。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day25",
@@ -5192,9 +6560,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "faire du / de la / de l’ + 活動：faire du sport, faire de la randonnée。",
-      "en": "faire du / de la / de l’ + activity: faire du sport, faire de la randonnée.",
-      "ja": "faire du / de la / de l’ + 活動：faire du sport, faire de la randonnée。"
+      "zh": "Je fais du sport。活動名詞前常用 faire du/de la/de l’。",
+      "en": "Use faire du/de la/de l’ with many activities.",
+      "ja": "活動には faire du/de la/de l’。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -5214,7 +6582,64 @@
       "en": "Adult French learning card, theme: Hobbies, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：趣味。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "hiking,books,leisure"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "faire du/de la/de l’",
+          "en": "faire du/de la/de l’",
+          "ja": "faire du/de la/de l’"
+        },
+        "explanation": {
+          "zh": "Je fais du sport。活動名詞前常用 faire du/de la/de l’。",
+          "en": "Use faire du/de la/de l’ with many activities.",
+          "ja": "活動には faire du/de la/de l’。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "jouer de",
+          "en": "jouer de",
+          "ja": "jouer de"
+        },
+        "explanation": {
+          "zh": "Je joue du piano = 我彈鋼琴。樂器用 jouer de。",
+          "en": "Use jouer de for instruments.",
+          "ja": "楽器には jouer de。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "regarder / écouter",
+          "en": "regarder / écouter",
+          "ja": "regarder / écouter"
+        },
+        "explanation": {
+          "zh": "看電影用 regarder；聽音樂用 écouter。",
+          "en": "Use regarder for watching and écouter for listening.",
+          "ja": "見るは regarder、聴くは écouter。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "souvent",
+          "en": "souvent",
+          "ja": "souvent"
+        },
+        "explanation": {
+          "zh": "Je visite souvent des musées。souvent 通常放在動詞後。",
+          "en": "souvent often follows the conjugated verb.",
+          "ja": "souvent は動詞の後に置きやすい。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day26",
@@ -5400,9 +6825,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "近未來式：aller + 不定詞。Je vais partir = 我要出發。",
-      "en": "Near future: aller + infinitive. Je vais partir = I am going to leave.",
-      "ja": "近接未来：aller + 不定詞。Je vais partir = 出発する予定です。"
+      "zh": "Je vais voyager = 我要旅行。aller 變位 + 原形動詞。",
+      "en": "aller + infinitive expresses near future.",
+      "ja": "aller + 不定詞 は近未来。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -5422,7 +6847,64 @@
       "en": "Adult French learning card, theme: Weekend plans, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：週末の予定。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "kyoto,weekend,travel"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "近未來 aller + 不定詞",
+          "en": "近未來 aller + 不定詞",
+          "ja": "近未來 aller + 不定詞"
+        },
+        "explanation": {
+          "zh": "Je vais voyager = 我要旅行。aller 變位 + 原形動詞。",
+          "en": "aller + infinitive expresses near future.",
+          "ja": "aller + 不定詞 は近未来。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "nous allons",
+          "en": "nous allons",
+          "ja": "nous allons"
+        },
+        "explanation": {
+          "zh": "Nous allons visiter un musée = 我們要參觀美術館。nous 的 aller 是 allons。",
+          "en": "nous allons is the nous form of aller.",
+          "ja": "nous の aller は allons。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "ce week-end",
+          "en": "ce week-end",
+          "ja": "ce week-end"
+        },
+        "explanation": {
+          "zh": "ce week-end = 這個週末。ce 是指示形容詞。",
+          "en": "ce means this with masculine singular nouns.",
+          "ja": "ce は男性単数名詞につく「この」。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "ça a l’air",
+          "en": "ça a l’air",
+          "ja": "ça a l’air"
+        },
+        "explanation": {
+          "zh": "Ça a l’air bien = 聽起來/看起來不錯。固定實用表達。",
+          "en": "Ça a l’air... means it seems/looks/sounds...",
+          "ja": "Ça a l’air... は〜そう。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day27",
@@ -5608,9 +7090,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "複合過去式：avoir/être + 過去分詞。先背 J'ai mangé / Je suis allé。",
-      "en": "Passé composé: avoir/être + past participle. First memorize J'ai mangé / Je suis allé.",
-      "ja": "複合過去：avoir/être + 過去分詞。まず J'ai mangé / Je suis allé。"
+      "zh": "J’ai travaillé / mangé / acheté。多數動詞用 avoir + 過去分詞。",
+      "en": "Most verbs use avoir + past participle.",
+      "ja": "多くの動詞は avoir + 過去分詞。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -5630,7 +7112,64 @@
       "en": "Adult French learning card, theme: Talking about yesterday, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：昨日のことを話す。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "journal,diary,writing"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "複合過去式 avoir",
+          "en": "複合過去式 avoir",
+          "ja": "複合過去式 avoir"
+        },
+        "explanation": {
+          "zh": "J’ai travaillé / mangé / acheté。多數動詞用 avoir + 過去分詞。",
+          "en": "Most verbs use avoir + past participle.",
+          "ja": "多くの動詞は avoir + 過去分詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "複合過去式 être",
+          "en": "複合過去式 être",
+          "ja": "複合過去式 être"
+        },
+        "explanation": {
+          "zh": "Je suis allé / rentré。移動與部分動詞常用 être。",
+          "en": "Some movement verbs use être in passé composé.",
+          "ja": "移動系など一部は être を使う。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "過去分詞 -é",
+          "en": "過去分詞 -é",
+          "ja": "過去分詞 -é"
+        },
+        "explanation": {
+          "zh": "travailler → travaillé；manger → mangé。-er 動詞過去分詞多為 -é。",
+          "en": "-er verbs often form past participles in -é.",
+          "ja": "-er 動詞の過去分詞は多くが -é。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "c’était",
+          "en": "c’était",
+          "ja": "c’était"
+        },
+        "explanation": {
+          "zh": "C’était bien = 那很好。用來評價過去經驗。",
+          "en": "C’était... is used to evaluate past experiences.",
+          "ja": "C’était... は過去の経験を評価する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day28",
@@ -5816,9 +7355,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "簡單未來式常見結尾：je -rai。初期先背高頻句：je vous appellerai / je confirmerai。",
-      "en": "Simple future often uses je -rai. First memorize high-frequency phrases: je vous appellerai / je confirmerai.",
-      "ja": "単純未来は je -rai が多い。まず je vous appellerai / je confirmerai を覚える。"
+      "zh": "Je partirai / je serai / j’aurai。未來式常以 -rai 結尾。",
+      "en": "Simple future often ends in -rai for je.",
+      "ja": "単純未来の je は多くが -rai。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -5838,7 +7377,64 @@
       "en": "Adult French learning card, theme: Talking about tomorrow, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：明日の予定を話す。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "agenda,planning,schedule"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "簡單未來式",
+          "en": "簡單未來式",
+          "ja": "簡單未來式"
+        },
+        "explanation": {
+          "zh": "Je partirai / je serai / j’aurai。未來式常以 -rai 結尾。",
+          "en": "Simple future often ends in -rai for je.",
+          "ja": "単純未来の je は多くが -rai。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "demain",
+          "en": "demain",
+          "ja": "demain"
+        },
+        "explanation": {
+          "zh": "Demain 放句首可明確標記未來時間。",
+          "en": "Demain at the beginning marks future time clearly.",
+          "ja": "Demain を文頭に置くと未来時点が明確。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "envoyer",
+          "en": "envoyer",
+          "ja": "envoyer"
+        },
+        "explanation": {
+          "zh": "Je vous enverrai le document = 我會把文件寄給您。vous 是間接受詞。",
+          "en": "vous can mean to you as an indirect object.",
+          "ja": "vous は「あなたに」という間接受詞にもなる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "plus tard",
+          "en": "plus tard",
+          "ja": "plus tard"
+        },
+        "explanation": {
+          "zh": "Je confirmerai plus tard = 我稍後確認。plus tard 表示晚一點。",
+          "en": "plus tard means later.",
+          "ja": "plus tard は後で。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day29",
@@ -6024,9 +7620,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "今天是整合日，不新增語法。重點是把短句串成可用行動流程。",
-      "en": "Today is an integration day with no new grammar. Focus on turning short phrases into usable actions.",
-      "ja": "今日は統合日で新文法なし。短文を行動の流れにする。"
+      "zh": "一天情境可混合現在、近未來、過去：je suis / je vais / j’ai fait。",
+      "en": "Integrated scenarios mix present, near future and past.",
+      "ja": "総合場面では現在・近未来・過去を混ぜる。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -6046,7 +7642,64 @@
       "en": "Adult French learning card, theme: One-day scenario, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：パリでの一日。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "paris,eiffel,cityscape"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "時態混合",
+          "en": "時態混合",
+          "ja": "時態混合"
+        },
+        "explanation": {
+          "zh": "一天情境可混合現在、近未來、過去：je suis / je vais / j’ai fait。",
+          "en": "Integrated scenarios mix present, near future and past.",
+          "ja": "総合場面では現在・近未来・過去を混ぜる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "問路複習",
+          "en": "問路複習",
+          "ja": "問路複習"
+        },
+        "explanation": {
+          "zh": "Où est...? / Comment aller à...? 是問地點與路線的核心句。",
+          "en": "Où est...? and Comment aller à...? are core direction patterns.",
+          "ja": "Où est...? / Comment aller à...? は道案内の基本。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "點餐複習",
+          "en": "點餐複習",
+          "ja": "點餐複習"
+        },
+        "explanation": {
+          "zh": "Je voudrais... / L’addition, s’il vous plaît. 可完成餐廳流程。",
+          "en": "Je voudrais... and L’addition... complete restaurant basics.",
+          "ja": "Je voudrais... と L’addition... でレストラン会話ができる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "付款複習",
+          "en": "付款複習",
+          "ja": "付款複習"
+        },
+        "explanation": {
+          "zh": "Je voudrais payer par carte。payer par carte = 刷卡付款。",
+          "en": "payer par carte means pay by card.",
+          "ja": "payer par carte はカードで払う。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day30",
@@ -6232,9 +7885,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "總複習：現在式、近未來、否定句、自我介紹、禮貌請求。",
-      "en": "Review: present tense, near future, negation, self-introduction and polite requests.",
-      "ja": "総復習：現在形、近接未来、否定文、自己紹介、丁寧な依頼。"
+      "zh": "姓名 → 來源 → 居住地 → 語言 → 興趣，是最穩的 1 分鐘介紹框架。",
+      "en": "Name, origin, residence, languages and interests form a stable intro structure.",
+      "ja": "名前・出身・居住地・言語・興味が安定した自己紹介構造。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -6254,7 +7907,64 @@
       "en": "Adult French learning card, theme: France travel review, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：フランス旅行総復習。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "france,vacation,sightseeing"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "自我介紹結構",
+          "en": "自我介紹結構",
+          "ja": "自我介紹結構"
+        },
+        "explanation": {
+          "zh": "姓名 → 來源 → 居住地 → 語言 → 興趣，是最穩的 1 分鐘介紹框架。",
+          "en": "Name, origin, residence, languages and interests form a stable intro structure.",
+          "ja": "名前・出身・居住地・言語・興味が安定した自己紹介構造。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "voyage en France",
+          "en": "voyage en France",
+          "ja": "voyage en France"
+        },
+        "explanation": {
+          "zh": "en France = 在/去法國。陰性國家多用 en。",
+          "en": "Use en with many feminine country names: en France.",
+          "ja": "女性国名には en が多い：en France。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pouvoir 應對",
+          "en": "pouvoir 應對",
+          "ja": "pouvoir 應對"
+        },
+        "explanation": {
+          "zh": "Pouvez-vous répéter ? / Pouvez-vous parler anglais ? 是旅行保命句。",
+          "en": "Pouvez-vous...? is essential for travel repair phrases.",
+          "ja": "Pouvez-vous...? は旅行で重要な修復表現。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "綜合句型",
+          "en": "綜合句型",
+          "ja": "綜合句型"
+        },
+        "explanation": {
+          "zh": "Day 30 不新增語法，重點是把前 29 天句型串成一段話。",
+          "en": "Day 30 adds no new grammar; it integrates prior patterns.",
+          "ja": "Day 30 は新文法なし。既習文型をつなぐ。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day31",
@@ -6440,9 +8150,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "形容詞性別配合先只觀察：marché haussier, tendance baissière。不要一開始硬背全部變化。",
-      "en": "First observe adjective agreement: marché haussier, tendance baissière. Do not memorize all forms at once.",
-      "ja": "形容詞の性数一致はまず観察：marché haussier, tendance baissière。最初から全部暗記しない。"
+      "zh": "Le marché est volatil。市場評論常用 être + 形容詞。",
+      "en": "Market comments often use être + adjective.",
+      "ja": "市場コメントは être + 形容詞。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -6462,7 +8172,64 @@
       "en": "Adult French learning card, theme: Financial markets vocabulary, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：金融市場の語彙。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "trading,stockmarket,finance"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "marché + 形容詞",
+          "en": "marché + 形容詞",
+          "ja": "marché + 形容詞"
+        },
+        "explanation": {
+          "zh": "Le marché est volatil。市場評論常用 être + 形容詞。",
+          "en": "Market comments often use être + adjective.",
+          "ja": "市場コメントは être + 形容詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "monter / baisser",
+          "en": "monter / baisser",
+          "ja": "monter / baisser"
+        },
+        "explanation": {
+          "zh": "Les actions montent / baissent。主語是複數，所以動詞用複數形式。",
+          "en": "Plural subjects take plural verb forms.",
+          "ja": "複数主語には複数動詞形。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "se renforcer / se déprécier",
+          "en": "se renforcer / se déprécier",
+          "ja": "se renforcer / se déprécier"
+        },
+        "explanation": {
+          "zh": "L’euro se renforce。se + 動詞可表示自身狀態變化。",
+          "en": "Pronominal verbs can express a change affecting the subject.",
+          "ja": "代名動詞は主語自身の変化を表せる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "haussier / baissier",
+          "en": "haussier / baissier",
+          "ja": "haussier / baissier"
+        },
+        "explanation": {
+          "zh": "形容詞需配合名詞性別與數量：tendance haussière, marché baissier。",
+          "en": "Adjectives agree in gender and number.",
+          "ja": "形容詞は性・数に一致。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day32",
@@ -6648,9 +8415,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "ce/cet/cette 都是「這個」。cet 用在母音開頭的陽性名詞前：cet ETF。",
-      "en": "ce/cet/cette mean this. cet is used before masculine nouns starting with a vowel: cet ETF.",
-      "ja": "ce/cet/cette は「この」。cet は母音で始まる男性名詞の前：cet ETF。"
+      "zh": "Ce produit；cet ETF。陽性母音前用 cet。",
+      "en": "Use cet before masculine nouns beginning with a vowel sound.",
+      "ja": "男性名詞で母音始まりは cet。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -6670,7 +8437,64 @@
       "en": "Adult French learning card, theme: Investment products, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：投資商品。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "investment,portfolio,charts"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "ce / cet / cette",
+          "en": "ce / cet / cette",
+          "ja": "ce / cet / cette"
+        },
+        "explanation": {
+          "zh": "Ce produit；cet ETF。陽性母音前用 cet。",
+          "en": "Use cet before masculine nouns beginning with a vowel sound.",
+          "ja": "男性名詞で母音始まりは cet。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "suivre",
+          "en": "suivre",
+          "ja": "suivre"
+        },
+        "explanation": {
+          "zh": "Cet ETF suit un indice = 這檔 ETF 追蹤一個指數。suit 是 suivre 的第三人稱。",
+          "en": "suit is the third-person form of suivre.",
+          "ja": "suit は suivre の三人称単数。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "ne...pas garanti",
+          "en": "ne...pas garanti",
+          "ja": "ne...pas garanti"
+        },
+        "explanation": {
+          "zh": "Ce produit n’est pas garanti = 這個產品沒有保證。",
+          "en": "n’est pas is the negative of est.",
+          "ja": "n’est pas は est の否定。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il faut + 不定詞",
+          "en": "il faut + 不定詞",
+          "ja": "il faut + 不定詞"
+        },
+        "explanation": {
+          "zh": "Il faut lire les documents officiels = 必須閱讀正式文件。",
+          "en": "Il faut + infinitive expresses necessity.",
+          "ja": "Il faut + 不定詞 は必要性。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day33",
@@ -6856,9 +8680,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "比較級：plus risqué que = 比……風險更高；moins risqué que = 比……風險更低。",
-      "en": "Comparative: plus risqué que = riskier than; moins risqué que = less risky than.",
-      "ja": "比較級：plus risqué que = よりリスクが高い；moins risqué que = よりリスクが低い。"
+      "zh": "Quel est votre profil ? quel 要與名詞性別/數量配合。",
+      "en": "quel agrees with the noun it modifies.",
+      "ja": "quel は名詞の性・数に一致。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -6878,7 +8702,64 @@
       "en": "Adult French learning card, theme: Risk profile questions, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：リスク許容度の質問。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "risk,analysis,data"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "quel / quelle / quels / quelles",
+          "en": "quel / quelle / quels / quelles",
+          "ja": "quel / quelle / quels / quelles"
+        },
+        "explanation": {
+          "zh": "Quel est votre profil ? quel 要與名詞性別/數量配合。",
+          "en": "quel agrees with the noun it modifies.",
+          "ja": "quel は名詞の性・数に一致。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "préférer",
+          "en": "préférer",
+          "ja": "préférer"
+        },
+        "explanation": {
+          "zh": "Préférez-vous...? 是正式倒裝問法。",
+          "en": "Préférez-vous...? is a formal inverted question.",
+          "ja": "Préférez-vous...? は正式な倒置疑問。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "plutôt",
+          "en": "plutôt",
+          "ja": "plutôt"
+        },
+        "explanation": {
+          "zh": "plutôt la croissance ou la préservation = 偏成長還是保本。plutôt 表偏向。",
+          "en": "plutôt means rather/more toward.",
+          "ja": "plutôt はどちらかというと。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "plus...que",
+          "en": "plus...que",
+          "ja": "plus...que"
+        },
+        "explanation": {
+          "zh": "Ce produit est plus risqué que celui-ci = 這產品比這個更有風險。",
+          "en": "plus...que forms comparisons.",
+          "ja": "plus...que は比較級。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day34",
@@ -7064,9 +8945,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "正式語域保持 vous，不要在同一場對話混用 tu。",
-      "en": "Maintain vous in formal register; do not mix it with tu in the same conversation.",
-      "ja": "正式場面では vous を維持し、同じ会話で tu と混ぜない。"
+      "zh": "Merci d’être venu = 感謝您來。de 在母音前縮成 d’。",
+      "en": "merci de + infinitive means thank you for doing...",
+      "ja": "merci de + 不定詞 は〜してくれてありがとう。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -7086,7 +8967,64 @@
       "en": "Adult French learning card, theme: Welcoming a French-speaking client, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：フランス語顧客の迎え入れ。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "boardroom,meeting,business"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "merci de + 不定詞",
+          "en": "merci de + 不定詞",
+          "ja": "merci de + 不定詞"
+        },
+        "explanation": {
+          "zh": "Merci d’être venu = 感謝您來。de 在母音前縮成 d’。",
+          "en": "merci de + infinitive means thank you for doing...",
+          "ja": "merci de + 不定詞 は〜してくれてありがとう。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "voulez-vous",
+          "en": "voulez-vous",
+          "ja": "voulez-vous"
+        },
+        "explanation": {
+          "zh": "Voulez-vous un café ? 是正式倒裝問法。",
+          "en": "Voulez-vous...? is a formal inverted question.",
+          "ja": "Voulez-vous...? は正式な倒置疑問。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "nous pouvons",
+          "en": "nous pouvons",
+          "ja": "nous pouvons"
+        },
+        "explanation": {
+          "zh": "Nous pouvons commencer = 我們可以開始。pouvons 後接原形。",
+          "en": "pouvoir is followed by an infinitive.",
+          "ja": "pouvoir の後は不定詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "n’hésitez pas à",
+          "en": "n’hésitez pas à",
+          "ja": "n’hésitez pas à"
+        },
+        "explanation": {
+          "zh": "N’hésitez pas à m’interrompre = 請不要客氣打斷我。固定正式句。",
+          "en": "N’hésitez pas à... is a polite invitation.",
+          "ja": "N’hésitez pas à... は丁寧な促し。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day35",
@@ -7272,9 +9210,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "禮貌提問：Pourriez-vous...? 比 Pouvez-vous...? 更柔和。",
-      "en": "Polite question: Pourriez-vous...? is softer than Pouvez-vous...?",
-      "ja": "丁寧な質問：Pourriez-vous...? は Pouvez-vous...? より柔らかい。"
+      "zh": "Pour ouvrir le compte = 為了開戶。pour + 不定詞表示目的。",
+      "en": "pour + infinitive expresses purpose.",
+      "ja": "pour + 不定詞 は目的。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -7294,7 +9232,64 @@
       "en": "Adult French learning card, theme: Account opening and KYC, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：口座開設とKYC。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "documents,banking,compliance"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "pour + 不定詞",
+          "en": "pour + 不定詞",
+          "ja": "pour + 不定詞"
+        },
+        "explanation": {
+          "zh": "Pour ouvrir le compte = 為了開戶。pour + 不定詞表示目的。",
+          "en": "pour + infinitive expresses purpose.",
+          "ja": "pour + 不定詞 は目的。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "avoir besoin de",
+          "en": "avoir besoin de",
+          "ja": "avoir besoin de"
+        },
+        "explanation": {
+          "zh": "Nous avons besoin de documents = 我們需要文件。",
+          "en": "avoir besoin de means to need.",
+          "ja": "avoir besoin de は〜が必要。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pourriez-vous",
+          "en": "pourriez-vous",
+          "ja": "pourriez-vous"
+        },
+        "explanation": {
+          "zh": "Pourriez-vous confirmer...? 比 Pouvez-vous...? 更客氣。",
+          "en": "Pourriez-vous...? is a more polite request.",
+          "ja": "Pourriez-vous...? はより丁寧な依頼。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "devoir + 不定詞",
+          "en": "devoir + 不定詞",
+          "ja": "devoir + 不定詞"
+        },
+        "explanation": {
+          "zh": "Nous devons respecter... = 我們必須遵守。devoir 後接原形。",
+          "en": "devoir + infinitive expresses obligation.",
+          "ja": "devoir + 不定詞 は義務。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day36",
@@ -7480,9 +9475,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "串接句子：Premièrement / Ensuite / Enfin。這比單句堆疊更像正式會議。",
-      "en": "Connectors: Premièrement / Ensuite / Enfin. This sounds more like a formal meeting than isolated sentences.",
-      "ja": "接続表現：Premièrement / Ensuite / Enfin。単文の羅列より会議らしい。"
+      "zh": "Nous allons revoir... = 我們將檢視。aller + 不定詞表近未來。",
+      "en": "aller + infinitive expresses near future.",
+      "ja": "aller + 不定詞 は近未来。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -7502,7 +9497,64 @@
       "en": "Adult French learning card, theme: Portfolio review meeting, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：定期レビュー会議。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "presentation,conference,meeting"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "futur proche",
+          "en": "futur proche",
+          "ja": "futur proche"
+        },
+        "explanation": {
+          "zh": "Nous allons revoir... = 我們將檢視。aller + 不定詞表近未來。",
+          "en": "aller + infinitive expresses near future.",
+          "ja": "aller + 不定詞 は近未来。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "premièrement / ensuite / enfin",
+          "en": "premièrement / ensuite / enfin",
+          "ja": "premièrement / ensuite / enfin"
+        },
+        "explanation": {
+          "zh": "這三個連接詞讓會議結構清楚。",
+          "en": "These connectors structure meetings clearly.",
+          "ja": "この3語は会議の構造化に便利。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "depuis",
+          "en": "depuis",
+          "ja": "depuis"
+        },
+        "explanation": {
+          "zh": "Depuis notre dernière réunion = 自從上次會議以來。",
+          "en": "depuis means since/for from a starting point.",
+          "ja": "depuis は〜以来。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "recommander",
+          "en": "recommander",
+          "ja": "recommander"
+        },
+        "explanation": {
+          "zh": "Nous recommandons quelques ajustements。recommander 後接名詞或 de + 不定詞。",
+          "en": "recommander can take a noun or de + infinitive.",
+          "ja": "recommander は名詞または de + 不定詞を取れる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day37",
@@ -7688,9 +9740,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "百分比：40 % = quarante pour cent。La part de X est de... = X 的比例是……",
-      "en": "Percentages: 40% = quarante pour cent. La part de X est de... = The allocation to X is...",
-      "ja": "パーセント：40 % = quarante pour cent。La part de X est de... = X の比率は…。"
+      "zh": "Votre portefeuille est composé de... = 您的投資組合由...組成。",
+      "en": "être composé de means to be made up of.",
+      "ja": "être composé de は〜で構成される。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -7710,7 +9762,64 @@
       "en": "Adult French learning card, theme: Asset allocation discussion, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：資産配分の議論。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "portfolio,allocation,finance"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "être composé de",
+          "en": "être composé de",
+          "ja": "être composé de"
+        },
+        "explanation": {
+          "zh": "Votre portefeuille est composé de... = 您的投資組合由...組成。",
+          "en": "être composé de means to be made up of.",
+          "ja": "être composé de は〜で構成される。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pourcentage",
+          "en": "pourcentage",
+          "ja": "pourcentage"
+        },
+        "explanation": {
+          "zh": "40 % 讀作 quarante pour cent。百分比後常接 de。",
+          "en": "Percentages are read as pour cent.",
+          "ja": "パーセントは pour cent。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "la part de",
+          "en": "la part de",
+          "ja": "la part de"
+        },
+        "explanation": {
+          "zh": "La part en liquidités est de 10 % = 現金比例是 10%。",
+          "en": "la part de/en indicates allocation share.",
+          "ja": "la part は比率・割合。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "augmenter / réduire",
+          "en": "augmenter / réduire",
+          "ja": "augmenter / réduire"
+        },
+        "explanation": {
+          "zh": "augmenter l’exposition；réduire le risque。投資建議常用這兩個動詞。",
+          "en": "augmenter and réduire are core recommendation verbs.",
+          "ja": "augmenter / réduire は提案で頻出。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day38",
@@ -7896,9 +10005,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "par rapport à = 相對於；en comparaison de = 與……相比。兩者都可用於績效比較。",
-      "en": "par rapport à = relative to; en comparaison de = compared with. Both work for performance comparison.",
-      "ja": "par rapport à = 〜に対して；en comparaison de = 〜と比較して。どちらも成績比較に使える。"
+      "zh": "Le portefeuille a progressé de 3 %。a progressé 是複合過去式。",
+      "en": "a progressé is passé composé.",
+      "ja": "a progressé は複合過去。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -7918,7 +10027,64 @@
       "en": "Adult French learning card, theme: Performance reporting, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：運用成績の説明。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "analytics,performance,charts"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "passé composé",
+          "en": "passé composé",
+          "ja": "passé composé"
+        },
+        "explanation": {
+          "zh": "Le portefeuille a progressé de 3 %。a progressé 是複合過去式。",
+          "en": "a progressé is passé composé.",
+          "ja": "a progressé は複合過去。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "inférieur / supérieur à",
+          "en": "inférieur / supérieur à",
+          "ja": "inférieur / supérieur à"
+        },
+        "explanation": {
+          "zh": "inférieure à l’indice；supérieure au marché。比較基準前用 à。",
+          "en": "inférieur/supérieur take à.",
+          "ja": "inférieur/supérieur は à を取る。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "venir de",
+          "en": "venir de",
+          "ja": "venir de"
+        },
+        "explanation": {
+          "zh": "La baisse vient principalement de... = 下跌主要來自...。",
+          "en": "venir de can indicate source/cause.",
+          "ja": "venir de は原因・出所も示せる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "sur le long terme",
+          "en": "sur le long terme",
+          "ja": "sur le long terme"
+        },
+        "explanation": {
+          "zh": "sur le long terme = 從長期來看。金融評論高頻。",
+          "en": "sur le long terme means over the long term.",
+          "ja": "sur le long terme は長期的に。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day39",
@@ -8104,9 +10270,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "建議語氣：Je vous conseille de + 不定詞；Il serait prudent de + 不定詞。",
-      "en": "Advisory tone: Je vous conseille de + infinitive; Il serait prudent de + infinitive.",
-      "ja": "提案の語調：Je vous conseille de + 不定詞；Il serait prudent de + 不定詞。"
+      "zh": "Nous recommandons de rééquilibrer... = 我們建議再平衡。",
+      "en": "recommander de + infinitive means to recommend doing.",
+      "ja": "recommander de + 不定詞 は〜を勧める。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -8126,7 +10292,64 @@
       "en": "Adult French learning card, theme: Rebalancing recommendation, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：リバランス提案。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "balance,scale,adjustment"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "recommander de",
+          "en": "recommander de",
+          "ja": "recommander de"
+        },
+        "explanation": {
+          "zh": "Nous recommandons de rééquilibrer... = 我們建議再平衡。",
+          "en": "recommander de + infinitive means to recommend doing.",
+          "ja": "recommander de + 不定詞 は〜を勧める。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "conseiller de",
+          "en": "conseiller de",
+          "ja": "conseiller de"
+        },
+        "explanation": {
+          "zh": "Je vous conseille de réduire... = 我建議您降低...。",
+          "en": "conseiller à quelqu’un de faire means advise someone to do.",
+          "ja": "conseiller de は〜するよう助言する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il serait prudent de",
+          "en": "il serait prudent de",
+          "ja": "il serait prudent de"
+        },
+        "explanation": {
+          "zh": "條件式 serait 讓建議更委婉：Il serait prudent de...。",
+          "en": "serait softens advice.",
+          "ja": "serait は助言を柔らかくする。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "vendre / renforcer",
+          "en": "vendre / renforcer",
+          "ja": "vendre / renforcer"
+        },
+        "explanation": {
+          "zh": "vendre une partie；renforcer la partie obligataire。投資調整高頻。",
+          "en": "vendre and renforcer are common portfolio action verbs.",
+          "ja": "vendre / renforcer は投資調整で頻出。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day40",
@@ -8312,9 +10535,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "非人稱句：Il semblerait que... / Il est probable que... 可讓市場評論更審慎。",
-      "en": "Impersonal phrases like Il semblerait que... / Il est probable que... make commentary more cautious.",
-      "ja": "非人称表現：Il semblerait que... / Il est probable que... は市場コメントを慎重にする。"
+      "zh": "Le marché reste incertain = 市場仍不確定。rester 表持續狀態。",
+      "en": "rester + adjective means to remain.",
+      "ja": "rester + 形容詞 は〜のままである。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -8334,7 +10557,64 @@
       "en": "Adult French learning card, theme: Market commentary, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：市場コメント。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "stockmarket,trading,news"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "rester + 形容詞",
+          "en": "rester + 形容詞",
+          "ja": "rester + 形容詞"
+        },
+        "explanation": {
+          "zh": "Le marché reste incertain = 市場仍不確定。rester 表持續狀態。",
+          "en": "rester + adjective means to remain.",
+          "ja": "rester + 形容詞 は〜のままである。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pourrait",
+          "en": "pourrait",
+          "ja": "pourrait"
+        },
+        "explanation": {
+          "zh": "Les taux pourraient baisser。pourraient 是條件式，表示可能性。",
+          "en": "pourraient indicates possibility in a cautious tone.",
+          "ja": "pourraient は可能性を慎重に示す。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "plus...que prévu",
+          "en": "plus...que prévu",
+          "ja": "plus...que prévu"
+        },
+        "explanation": {
+          "zh": "plus faible que prévu = 比預期更弱。que prévu 是常用比較結構。",
+          "en": "que prévu means than expected.",
+          "ja": "que prévu は予想より。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il est probable que",
+          "en": "il est probable que",
+          "ja": "il est probable que"
+        },
+        "explanation": {
+          "zh": "Il est probable que... 後面可接完整子句，表可能性。",
+          "en": "Il est probable que introduces a probability clause.",
+          "ja": "Il est probable que は可能性を述べる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day41",
@@ -8520,9 +10800,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "條件式 could/ would 的法語感：pourrait / serait / conviendrait，可降低過度承諾感。",
-      "en": "Conditional forms such as pourrait / serait / conviendrait soften claims and avoid overpromising.",
-      "ja": "条件法 pourrait / serait / conviendrait は断定を弱め、過度な約束を避ける。"
+      "zh": "Ce produit pourrait correspondre à votre profil。條件式讓推薦更審慎。",
+      "en": "pourrait makes a recommendation more cautious.",
+      "ja": "pourrait は推奨を慎重にする。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -8542,7 +10822,64 @@
       "en": "Adult French learning card, theme: Recommending a product, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：商品の提案。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "advisor,recommendation,office"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "pourrait correspondre à",
+          "en": "pourrait correspondre à",
+          "ja": "pourrait correspondre à"
+        },
+        "explanation": {
+          "zh": "Ce produit pourrait correspondre à votre profil。條件式讓推薦更審慎。",
+          "en": "pourrait makes a recommendation more cautious.",
+          "ja": "pourrait は推奨を慎重にする。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "néanmoins",
+          "en": "néanmoins",
+          "ja": "néanmoins"
+        },
+        "explanation": {
+          "zh": "Il existe néanmoins un risque = 然而仍有風險。正式轉折詞。",
+          "en": "néanmoins means nevertheless.",
+          "ja": "néanmoins はしかしながら。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "adapté à",
+          "en": "adapté à",
+          "ja": "adapté à"
+        },
+        "explanation": {
+          "zh": "Ce produit n’est pas adapté à tous les investisseurs。adapté à = 適合...。",
+          "en": "adapté à means suitable for.",
+          "ja": "adapté à は〜に適した。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "proposer de",
+          "en": "proposer de",
+          "ja": "proposer de"
+        },
+        "explanation": {
+          "zh": "Je vous propose de l’analyser ensemble = 我建議一起分析。",
+          "en": "proposer de + infinitive means to suggest doing.",
+          "ja": "proposer de + 不定詞 は提案する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day42",
@@ -8728,9 +11065,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "小數：0,5 % = zéro virgule cinq pour cent。bps = points de base。",
-      "en": "Decimals: 0.5% = zéro virgule cinq pour cent. bps = points de base.",
-      "ja": "小数：0,5 % = zéro virgule cinq pour cent。bps = points de base。"
+      "zh": "frais de gestion / frais d’entrée / frais de sortie。de 連接費用種類。",
+      "en": "frais de links a fee to its type.",
+      "ja": "frais de は費用の種類を示す。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -8750,7 +11087,64 @@
       "en": "Adult French learning card, theme: Fees and commissions, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：手数料説明。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "calculator,fees,finance"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "frais de",
+          "en": "frais de",
+          "ja": "frais de"
+        },
+        "explanation": {
+          "zh": "frais de gestion / frais d’entrée / frais de sortie。de 連接費用種類。",
+          "en": "frais de links a fee to its type.",
+          "ja": "frais de は費用の種類を示す。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "être de + 數字",
+          "en": "être de + 數字",
+          "ja": "être de + 數字"
+        },
+        "explanation": {
+          "zh": "Les frais sont de 1 % = 費用是 1%。正式數字說明常用 de。",
+          "en": "être de + amount states a numerical value.",
+          "ja": "être de + 数値 は数値を述べる。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il y a / il n’y a pas",
+          "en": "il y a / il n’y a pas",
+          "ja": "il y a / il n’y a pas"
+        },
+        "explanation": {
+          "zh": "Il y a des frais；Il n’y a pas de frais。否定後常用 de。",
+          "en": "After negation, des often becomes de.",
+          "ja": "否定後 des は de になることが多い。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "net / nette",
+          "en": "net / nette",
+          "ja": "net / nette"
+        },
+        "explanation": {
+          "zh": "performance nette。nette 配合陰性名詞 performance。",
+          "en": "nette agrees with feminine performance.",
+          "ja": "nette は女性名詞 performance に一致。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day43",
@@ -8936,9 +11330,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "義務表達：Il faut... / Vous devez... / Nous devons...。合規場景要清楚但不粗暴。",
-      "en": "Obligation: Il faut... / Vous devez... / Nous devons.... In compliance, be clear but not abrupt.",
-      "ja": "義務表現：Il faut... / Vous devez... / Nous devons...。コンプライアンスでは明確だが強すぎない語調。"
+      "zh": "Nous devons respecter... = 我們必須遵守...。",
+      "en": "devoir expresses obligation.",
+      "ja": "devoir は義務。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -8958,7 +11352,64 @@
       "en": "Adult French learning card, theme: KYC / AML compliance conversation, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：KYC / AML コンプライアンス。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "compliance,regulation,documents"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "devoir",
+          "en": "devoir",
+          "ja": "devoir"
+        },
+        "explanation": {
+          "zh": "Nous devons respecter... = 我們必須遵守...。",
+          "en": "devoir expresses obligation.",
+          "ja": "devoir は義務。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "il faut + 不定詞",
+          "en": "il faut + 不定詞",
+          "ja": "il faut + 不定詞"
+        },
+        "explanation": {
+          "zh": "Il faut vérifier... = 必須確認...。不指定誰，但表示必要。",
+          "en": "Il faut + infinitive expresses general necessity.",
+          "ja": "Il faut + 不定詞 は一般的必要性。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "avoir besoin de",
+          "en": "avoir besoin de",
+          "ja": "avoir besoin de"
+        },
+        "explanation": {
+          "zh": "Nous avons besoin de documents complémentaires。需要某物用 besoin de。",
+          "en": "avoir besoin de means need.",
+          "ja": "avoir besoin de は必要。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "ne...pas sans",
+          "en": "ne...pas sans",
+          "ja": "ne...pas sans"
+        },
+        "explanation": {
+          "zh": "Nous ne pouvons pas finaliser sans ces informations = 沒有這些資訊不能完成。",
+          "en": "sans means without; ne pouvons pas...sans means cannot...without.",
+          "ja": "sans は〜なしで。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day44",
@@ -9144,9 +11595,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "正式命令式：Veuillez confirmer. Veuillez signer ici. 比直接命令柔和。",
-      "en": "Formal imperative: Veuillez confirmer. Veuillez signer ici. Softer than direct commands.",
-      "ja": "正式な命令：Veuillez confirmer. Veuillez signer ici. 直接命令より柔らかい。"
+      "zh": "Vous souhaitez acheter...? 比 voulez-vous 更正式、柔和。",
+      "en": "souhaiter is more formal/soft than vouloir.",
+      "ja": "souhaiter は vouloir より丁寧。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -9166,7 +11617,64 @@
       "en": "Adult French learning card, theme: Transaction instruction and confirmation, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：取引指図と確認。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "transaction,trading,order"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "souhaiter",
+          "en": "souhaiter",
+          "ja": "souhaiter"
+        },
+        "explanation": {
+          "zh": "Vous souhaitez acheter...? 比 voulez-vous 更正式、柔和。",
+          "en": "souhaiter is more formal/soft than vouloir.",
+          "ja": "souhaiter は vouloir より丁寧。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "vouloir + 不定詞",
+          "en": "vouloir + 不定詞",
+          "ja": "vouloir + 不定詞"
+        },
+        "explanation": {
+          "zh": "Voulez-vous vendre...? vouloir 後接原形動詞。",
+          "en": "vouloir is followed by an infinitive.",
+          "ja": "vouloir の後は不定詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pour confirmation",
+          "en": "pour confirmation",
+          "ja": "pour confirmation"
+        },
+        "explanation": {
+          "zh": "Je vais répéter l’instruction pour confirmation。pour 表目的。",
+          "en": "pour can express purpose.",
+          "ja": "pour は目的を表す。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "futur proche",
+          "en": "futur proche",
+          "ja": "futur proche"
+        },
+        "explanation": {
+          "zh": "L’ordre sera exécuté 是未來被動；Je vais répéter 是近未來。先能辨識即可。",
+          "en": "Recognize near future and future passive; mastery is not required here.",
+          "ja": "近未来と未来受動は認識できればよい。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   },
   {
     "id": "day45",
@@ -9352,9 +11860,9 @@
       }
     ],
     "grammarNote": {
-      "zh": "進階語氣：條件式與 si 子句可降低承諾強度。例：nous pourrions discuter...",
-      "en": "Advanced tone: conditional and si clauses reduce commitment strength. Example: nous pourrions discuter...",
-      "ja": "上級表現：条件法と si 節で約束の強さを下げる。例：nous pourrions discuter..."
+      "zh": "Je comprends votre point de vue = 我理解您的觀點。正式談判常用。",
+      "en": "point de vue means viewpoint.",
+      "ja": "point de vue は観点。"
     },
     "pronunciationNotes": [],
     "outputTask": {
@@ -9374,6 +11882,63 @@
       "en": "Adult French learning card, theme: Fee negotiation and advanced PB meeting, clean mobile-friendly design, not childish.",
       "ja": "大人向けフランス語学習カード。テーマ：手数料交渉と上級PB面談。スマホ向けでシンプル、子どもっぽくしない。"
     },
-    "coverKeywords": "negotiation,deal,contract"
+    "grammarNotes": [
+      {
+        "title": {
+          "zh": "comprendre le point de vue",
+          "en": "comprendre le point de vue",
+          "ja": "comprendre le point de vue"
+        },
+        "explanation": {
+          "zh": "Je comprends votre point de vue = 我理解您的觀點。正式談判常用。",
+          "en": "point de vue means viewpoint.",
+          "ja": "point de vue は観点。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "pouvoir + 不定詞",
+          "en": "pouvoir + 不定詞",
+          "ja": "pouvoir + 不定詞"
+        },
+        "explanation": {
+          "zh": "Nous pouvons revoir... / envisager...。pouvoir 後接原形。",
+          "en": "pouvoir is followed by an infinitive.",
+          "ja": "pouvoir の後は不定詞。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "si + 現在式, 條件式",
+          "en": "si + 現在式, 條件式",
+          "ja": "si + 現在式, 條件式"
+        },
+        "explanation": {
+          "zh": "Si le volume augmente, nous pourrions... = 如果量增加，我們可以...。",
+          "en": "si + present can pair with conditional for hypothetical outcomes.",
+          "ja": "si + 現在形 と条件法で仮定の結果を表す。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      },
+      {
+        "title": {
+          "zh": "revenir vers vous",
+          "en": "revenir vers vous",
+          "ja": "revenir vers vous"
+        },
+        "explanation": {
+          "zh": "Nous revenons vers vous / Je vais revenir vers vous = 我們再回覆您。商務固定句。",
+          "en": "revenir vers vous means to get back to you.",
+          "ja": "revenir vers vous は折り返し連絡する。"
+        },
+        "level": "beginner",
+        "focus": "practical_usage"
+      }
+    ]
   }
 ]
