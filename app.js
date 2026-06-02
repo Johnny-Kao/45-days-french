@@ -3,6 +3,7 @@ let audioCache = {};
 let currentAudio = null;
 let currentButton = null;
 let audioStatusTimer = null;
+const linePlaySpeed = {}; // src → 'normal' | 'slow'
 const ASSET_VERSION = '20260602b';
 const IS_APPLE_MOBILE = /iP(ad|hone|od)/.test(navigator.userAgent)
   || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
@@ -21,6 +22,19 @@ function zh(val) {
   if (!val) return '';
   if (typeof val === 'string') return val;
   return val.zh || val.en || '';
+}
+
+function speakerLabel(speaker) {
+  if (speaker === 'A') return '你';
+  if (speaker === 'B') return '對方';
+  return speaker;
+}
+
+function levelLabel(level) {
+  if (level === 'beginner') return '初學';
+  if (level === 'advanced') return '進階';
+  if (level === 'expert') return '專家';
+  return level;
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
@@ -126,6 +140,11 @@ function audioSrc(src) {
   return withAssetVersion(src);
 }
 
+function getAudioElement(src) {
+  if (IS_APPLE_MOBILE) return document.getElementById(audioId(src)) || null;
+  return getAudio(src);
+}
+
 function audioId(src) {
   return `audio-${src.replace(/[^a-zA-Z0-9]+/g, '-')}`;
 }
@@ -160,15 +179,55 @@ function renderSentenceAudio(src, hasAudio) {
   if (!hasAudio) {
     return '<button class="play-btn" disabled>▶</button>';
   }
-  if (IS_APPLE_MOBILE) {
-    return `<button class="play-btn mobile-play-btn"
-      data-orig-label="▶"
-      aria-label="播放句子"
-      onclick="playMobileAudio('${audioId(src)}', this)">▶</button>`;
-  }
   return `<button class="play-btn"
     data-orig-label="▶"
-    onclick="playAudio('${src}', this)">▶</button>`;
+    data-speed="normal"
+    aria-label="播放句子"
+    onclick="playToggleSentenceAudio('${src}', this)">▶</button>`;
+}
+
+function playToggleSentenceAudio(src, btn) {
+  if (!src || btn.disabled) return;
+  if (currentAudio && currentButton === btn) {
+    stopCurrentAudio();
+    return;
+  }
+  stopCurrentAudio();
+
+  const speed = linePlaySpeed[src] || 'normal';
+  const rate = speed === 'slow' ? 0.72 : 1.0;
+
+  const audio = getAudioElement(src);
+  if (!audio) return;
+
+  currentAudio = audio;
+  currentButton = btn;
+  btn.dataset.speed = speed;
+  setButtonPlaying(btn);
+
+  audio.currentTime = 0;
+  audio.playbackRate = rate;
+
+  audio.onended = () => {
+    resetButtonState(btn);
+    currentAudio = null;
+    currentButton = null;
+    linePlaySpeed[src] = speed === 'normal' ? 'slow' : 'normal';
+    btn.dataset.speed = linePlaySpeed[src];
+  };
+  audio.onerror = () => {
+    resetButtonState(btn);
+    currentAudio = null;
+    currentButton = null;
+    showAudioStatus('音訊載入失敗，請再點一次。');
+  };
+
+  audio.play().catch(() => {
+    resetButtonState(btn);
+    currentAudio = null;
+    currentButton = null;
+    showAudioStatus(IS_APPLE_MOBILE ? 'iPhone 阻擋了這次播放，請再點一次。' : '播放失敗，請再點一次。');
+  });
 }
 
 function stopCurrentAudio() {
@@ -292,6 +351,32 @@ function markDone(id) {
   localStorage.setItem('lesson_' + id + '_done', 'true');
 }
 
+function unmarkDone(id) {
+  localStorage.removeItem('lesson_' + id + '_done');
+}
+
+// ── Scroll to top ─────────────────────────────────────────────────────────────
+
+function setupScrollToTop() {
+  window.removeEventListener('scroll', handleScroll);
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  let btn = document.getElementById('scroll-top-btn');
+  if (!btn) {
+    btn = document.createElement('button');
+    btn.id = 'scroll-top-btn';
+    btn.setAttribute('aria-label', '回到頂部');
+    btn.innerHTML = '↑';
+    btn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.body.appendChild(btn);
+  }
+  btn.hidden = window.scrollY <= 300;
+}
+
+function handleScroll() {
+  const btn = document.getElementById('scroll-top-btn');
+  if (btn) btn.hidden = window.scrollY <= 300;
+}
+
 // ── Home screen ───────────────────────────────────────────────────────────────
 
 const MODULES = [
@@ -359,6 +444,9 @@ function renderHome() {
       </div>`;
   }).join('');
 
+  const topBtn = document.getElementById('scroll-top-btn');
+  if (topBtn) topBtn.hidden = true;
+
   document.getElementById('app').innerHTML = `
     <div class="app">
       <div class="home-header">
@@ -381,13 +469,13 @@ function renderLesson(lesson) {
   preloadLessonAudio(lesson);
 
   const dialogueHTML = lesson.dialogue.map(s => `
-    <div class="sentence-card">
-      <div class="speaker-badge">${s.speaker}</div>
+    <div class="sentence-card${s.speaker === 'B' ? ' speaker-b' : ''}">
+      <div class="speaker-badge">${speakerLabel(s.speaker)}</div>
       <div class="sentence-text">
         <div class="fr">${s.fr}</div>
-        <div class="tr-line"><span class="tr-lang">中</span><span>${s.zh}</span></div>
-        ${s.en ? `<div class="tr-line"><span class="tr-lang">EN</span><span>${s.en}</span></div>` : ''}
-        ${s.ja ? `<div class="tr-line"><span class="tr-lang">日</span><span>${s.ja}</span></div>` : ''}
+        <div class="tr-line"><span class="tr-lang">中文</span><span>${s.zh}</span></div>
+        ${s.en ? `<div class="tr-line"><span class="tr-lang">英文</span><span>${s.en}</span></div>` : ''}
+        ${s.ja ? `<div class="tr-line"><span class="tr-lang">日文</span><span>${s.ja}</span></div>` : ''}
       </div>
       ${renderSentenceAudio(s.audio, hasAudio)}
     </div>`).join('');
@@ -427,7 +515,7 @@ function renderLesson(lesson) {
         <div class="grammar-note-item">
           <div class="grammar-note-header">
             <span class="grammar-note-title">${zh(n.title)}</span>
-            ${n.level ? `<span class="grammar-note-level">${n.level}</span>` : ''}
+            ${n.level ? `<span class="grammar-note-level" data-level="${n.level}">${levelLabel(n.level)}</span>` : ''}
           </div>
           <div class="grammar-note-explanation">${zh(n.explanation)}</div>
         </div>`).join('');
@@ -450,8 +538,8 @@ function renderLesson(lesson) {
     : `<div class="audio-status lesson-audio-status">這一課的音檔還沒生成；你現在可以先看句型、對話與輸出任務。</div>`;
 
   const doneButtonHTML = done
-    ? `<button class="done-btn completed" disabled>✓ 已完成</button>`
-    : `<button class="done-btn" onclick="onMarkDone('${lesson.id}')">Mark as Done ✓</button>`;
+    ? `<button class="done-btn completed" onclick="onMarkDone('${lesson.id}')">✓ 已完成　點擊取消</button>`
+    : `<button class="done-btn" onclick="onMarkDone('${lesson.id}')">標記完成</button>`;
 
   document.getElementById('app').innerHTML = `
     <div class="app${IS_APPLE_MOBILE ? ' apple-mobile-audio' : ''}">
@@ -479,7 +567,7 @@ function renderLesson(lesson) {
         ${audioNoticeHTML}
         <div id="audio-status-banner" class="audio-status lesson-audio-status" hidden></div>
         <div class="audio-row listen-first-row">
-          ${hasAudio ? renderAudioAction(lesson.audio.dialogueNormal, '正常速度') : '<button class="audio-btn" disabled>▶ 正常速度</button>'}
+          ${hasAudio ? renderAudioAction(lesson.audio.dialogueNormal, '正常速度', 'audio-btn secondary') : '<button class="audio-btn secondary" disabled>▶ 正常速度</button>'}
           ${hasAudio ? renderAudioAction(lesson.audio.dialogueSlow, '慢速', 'audio-btn secondary') : '<button class="audio-btn secondary" disabled>▶ 慢速</button>'}
           ${hasAudio ? renderAudioAction(lesson.audio.shadowing, '跟讀版', 'audio-btn secondary') : '<button class="audio-btn secondary" disabled>▶ 跟讀版</button>'}
         </div>
@@ -518,16 +606,26 @@ function renderLesson(lesson) {
       </div>
 
     </div>`;
+
+  setupScrollToTop();
 }
 
 function onMarkDone(id) {
-  markDone(id);
   const btn = document.querySelector('.done-btn');
-  if (!btn) return;
-  btn.classList.add('done-pop');
-  btn.textContent = '✓ 已完成';
-  btn.classList.add('completed');
-  btn.disabled = true;
+  if (isDone(id)) {
+    unmarkDone(id);
+    if (btn) {
+      btn.textContent = '標記完成';
+      btn.classList.remove('completed', 'done-pop');
+    }
+    return;
+  }
+
+  markDone(id);
+  if (btn) {
+    btn.classList.add('done-pop', 'completed');
+    btn.textContent = '✓ 已完成　點擊取消';
+  }
 
   const overlay = document.createElement('div');
   overlay.className = 'confetti-overlay';

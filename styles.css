@@ -456,18 +456,26 @@ body {
 
 .speaker-badge {
   flex-shrink: 0;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
+  min-width: 36px;
+  height: 24px;
+  border-radius: 999px;
   background: var(--bg);
   border: 1px solid var(--border);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--muted);
-  margin-top: 2px;
+  margin-top: 4px;
+  padding: 0 8px;
+  white-space: nowrap;
+}
+
+.speaker-b .speaker-badge {
+  background: #f0f4ff;
+  border-color: #c8d4f0;
+  color: #4a6bb5;
 }
 
 .sentence-text {
@@ -505,7 +513,7 @@ body {
   font-size: 10px;
   font-weight: 700;
   color: #b0a898;
-  min-width: 16px;
+  min-width: 26px;
   flex-shrink: 0;
   letter-spacing: 0.3px;
 }
@@ -524,8 +532,14 @@ body {
   align-items: center;
   justify-content: center;
   touch-action: manipulation;
-  transition: background 0.15s;
+  transition: background 0.15s, box-shadow 0.15s;
   margin-top: 0;
+  position: relative;
+}
+
+/* Slow mode indicator ring */
+.play-btn[data-speed="slow"] {
+  box-shadow: 0 0 0 2px #7aa7e8;
 }
 
 .play-btn:active {
@@ -654,12 +668,26 @@ body {
 .grammar-note-level {
   font-size: 10px;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-  color: var(--muted);
-  background: var(--border);
-  padding: 2px 7px;
+  letter-spacing: 0.3px;
+  padding: 2px 8px;
   border-radius: 999px;
+  background: var(--border);
+  color: var(--muted);
+}
+
+.grammar-note-level[data-level="beginner"] {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.grammar-note-level[data-level="advanced"] {
+  background: #fff8e1;
+  color: #e65100;
+}
+
+.grammar-note-level[data-level="expert"] {
+  background: #ffebee;
+  color: #c62828;
 }
 
 .grammar-note-explanation {
@@ -699,7 +727,8 @@ body {
 .done-btn.completed {
   background: var(--green-bg);
   color: var(--green-text);
-  cursor: default;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 /* ── Animation #1: card entrance ── */
@@ -752,4 +781,36 @@ body {
   height: 9px;
   border-radius: 2px;
   animation: confettiFall linear forwards;
+}
+
+/* ── Scroll to top button ── */
+#scroll-top-btn {
+  position: fixed;
+  right: 18px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  transition: opacity 0.2s, transform 0.2s;
+  touch-action: manipulation;
+}
+
+#scroll-top-btn[hidden] {
+  display: none;
+}
+
+#scroll-top-btn:active {
+  opacity: 0.75;
+  transform: scale(0.92);
 }
