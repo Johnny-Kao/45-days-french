@@ -172,7 +172,9 @@ function renderAudioAction(src, label, btnClass = 'audio-btn') {
   }
   return `<button class="${btnClass}"
     data-orig-label="▶ ${label}"
-    onclick="playAudio('${src}', this)">▶ ${label}</button>`;
+    onclick="playAudio('${src}', this)">
+    <span class="btn-icon">▶</span><span class="btn-text">${label}</span>
+  </button>`;
 }
 
 function renderSentenceAudio(src, hasAudio) {
@@ -195,7 +197,7 @@ function playToggleSentenceAudio(src, btn) {
   stopCurrentAudio();
 
   const speed = linePlaySpeed[src] || 'normal';
-  const rate = speed === 'slow' ? 0.72 : 1.0;
+  const rate = speed === 'slow' ? 0.60 : 1.0;
 
   const audio = getAudioElement(src);
   if (!audio) return;
@@ -327,18 +329,18 @@ function setButtonPlaying(btn) {
     btn.textContent = '■';
   } else if (btn.querySelector('.btn-icon')) {
     btn.querySelector('.btn-icon').textContent = '■';
-  } else {
-    btn.textContent = '■ ' + (btn.dataset.origLabel || '').replace(/^▶ /, '');
   }
+  // audio-btn: 不改文字，靠 CSS .playing 樣式回饋
 }
 
 function resetButtonState(btn) {
   btn.classList.remove('playing');
-  if (btn.querySelector('.btn-icon')) {
+  if (btn.classList.contains('play-btn')) {
+    if (btn.dataset.origLabel) btn.textContent = btn.dataset.origLabel;
+  } else if (btn.querySelector('.btn-icon')) {
     btn.querySelector('.btn-icon').textContent = '▶';
-  } else if (btn.dataset.origLabel) {
-    btn.textContent = btn.dataset.origLabel;
   }
+  // audio-btn: 不需要還原文字
 }
 
 // ── localStorage ──────────────────────────────────────────────────────────────
